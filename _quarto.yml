@@ -18,6 +18,8 @@ website:
       - href: index.qmd
         text: Home
       - about.qmd
+      - href: Software.qmd
+        text: Software
       - text: Supplementary
         menu: 
           - href: ""

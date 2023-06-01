@@ -11,7 +11,7 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "descSPIM : affordable but versatile light-sheet microscopy system for tissue clearing end users\n\n\n\ndescSPIM_CAD_for_GitHub_middle\n\n\n\n\ndescSPIM is a lightsheet microscopy system that we designed to meet the unmet needs of researchers who are using tissue clearing techniques. The system offers a low-cost and easy-to-use solution for 3D imaging of cleared tissue samples that requires little expertise and cost. Most optical components are readily available from a single vendor and can be readily assembled using the instructions provided. These minimal optical parts are arranged on a small optical breadboard. In contrast to existing lightsheet systems, descSPIM is intended to be simple to install, build, and operate, even for end users with no prior experience in optics. descSPIM is also highly expandable and can be customized to suit a variety of applications, making it a versatile tool for a wide range of research projects. With descSPIM, researchers can easily achieve practical-quality 3D imaging of cleared specimens in a daily experiments.\n\n\n\ndescSPIM_cost_vs_expertise_for_GitHub (1)_middle\n\n\nThe main features of descSPIM are: Easy-to-build Easy-to-operate (use a cuvette / no oil chamber) Affordable ($20k-50k for descSPIM-basic, depending on the number of lasers) Compact (all parts on a 300 mm x 450 mm breadboard)Versatile (highly expandable and customizable)## Who is the descSPIM for?\nResearchers interested in using Light-sheet fluorescence microscopy (LSFM) for cleared tissue imaging\n\n\n\n\nMacro- to meso-scale imaging of 3D volumetric samples prepared by tissue clearing techniques with strong efficiency (CUBIC, BABB, DISCO, SHIELDs etc.)\nVisualization of cell populations or anatomical structures (e.g. blood vessels, plaques) with cellular to sub-cellular resolutions"
   },
   {
     "objectID": "index.html#the-sample-chamber",
@@ -26,5 +26,68 @@
     "title": "descSPIM_LSmicro",
     "section": "DescSPIM and OpenSPIM",
     "text": "DescSPIM and OpenSPIM\nDescSPIM and OpenSPIM are not the same organization.\n\nDescSPIM\nDescSPIM (Developing a Spinning-Disk Confocal Selective-Plane Illumination Microscope) is a project focused on developing an open-source selective-plane illumination microscopy (SPIM) system. It aims to create a modular and customizable SPIM platform that can be accessible to researchers and scientists for their imaging needs. The DescSPIM project focuses on hardware design, software development, and documentation related to SPIM systems.\n\n\nOpenSPIM\nOpenSPIM is a separate initiative that also aims to develop open-source SPIM systems. OpenSPIM is a collaborative effort by multiple researchers and institutions with the goal of providing an accessible and affordable SPIM solution. They focus on designing, building, and sharing hardware and software resources for SPIM.\nthe web page and info are available at OpenSPIM.org.\nWhile both DescSPIM and OpenSPIM share a common goal of advancing open-source SPIM technology, they are distinct projects with separate teams and communities involved in their development.\nLight sheet microscopy offers several advantages over traditional microscopy techniques. It provides fast acquisition rates, high resolution, and the ability to capture three-dimensional images over long periods without significant photodamage. This makes it particularly suitable for studying dynamic processes in living organisms, such as developmental biology, neuroscience, and cell biology."
+  },
+  {
+    "objectID": "about.html#guide-to-install",
+    "href": "about.html#guide-to-install",
+    "title": "About",
+    "section": "Guide to install",
+    "text": "Guide to install\nIt is recommended to start learning\nBasic of optics and\nCleared sample preparation,\ndescSPIM-basic.\nAdd-on functions are developed to be compatible with the basic system.\nRelated codes can be available here: Data processing"
+  },
+  {
+    "objectID": "about.html#terms-and-conditions",
+    "href": "about.html#terms-and-conditions",
+    "title": "About",
+    "section": "Terms and Conditions",
+    "text": "Terms and Conditions\nBy using descSPIM, you agree to abide by these terms and conditions:\n\nThis system is only available for academic use. Any use for commercial purposes is strictly prohibited, unless permission is granted by the authors.\nAcademic users are allowed to use, apply, and adopt the system in accordance with the CC by 4.0 license policy. This includes modifications, adaptations, and redistribution of the system and its components.\nIf any commercial enterprise wants to use, produce, or sell the system, they must contact the authors (suishess-kyu@umin.ac.jp) to request permission.\nAll users of the system must acknowledge and refer to the original paper (Otomo et al. bioRxiv 2023) in any publications or presentations resulting from the use of the system.\nThe authors are not responsible for any consequences arising from the use of this system as well as related tools, scripts, and software. Users assume all risks and liabilities associated with the use.\nThe authors reserve the right to modify or terminate the system and its services at any time, without prior notice.\nUsers agree to comply with all applicable laws and regulations regarding the use of the system.\nAny disputes arising from the use of this system shall be resolved through negotiation between the parties. If a resolution cannot be reached, the dispute shall be submitted to binding arbitration in accordance with the laws of Japan."
+  },
+  {
+    "objectID": "about.html#references",
+    "href": "about.html#references",
+    "title": "About",
+    "section": "References",
+    "text": "References\n-Otomo et al. descSPIM: Affordable and Easy-to-Build Light-Sheet Microscopy for Clearing Technique Users. bioRxiv (2023)\n\nSusaki et al. Versatile whole-organ/body staining and imaging based on electrolyte-gel properties of biological tissues. Nat Commun 11, 1982 (2020)\nMatsumoto et al. Advanced CUBIC tissue clearing for whole-organ cell profiling. Nat Protoc 14, 3506–3537 (2019)\nCUBIC resource website"
+  },
+  {
+    "objectID": "Software.html",
+    "href": "Software.html",
+    "title": "Software",
+    "section": "",
+    "text": "Download here\n\nNot available anymore (404 error)"
+  },
+  {
+    "objectID": "Software.html#tiling-light-sheet-method-tiling-x-position-finder-imagej-macro",
+    "href": "Software.html#tiling-light-sheet-method-tiling-x-position-finder-imagej-macro",
+    "title": "Software",
+    "section": "Tiling light-sheet method: tiling x position finder (ImageJ macro)",
+    "text": "Tiling light-sheet method: tiling x position finder (ImageJ macro)\n\nNot available (404 error)"
+  },
+  {
+    "objectID": "Software.html#compile-nifti-file-from-tiftiff-stacks-.ipynb-file",
+    "href": "Software.html#compile-nifti-file-from-tiftiff-stacks-.ipynb-file",
+    "title": "Software",
+    "section": "Compile NIfTI file from TIF(TIFF) stacks: .ipynb file",
+    "text": "Compile NIfTI file from TIF(TIFF) stacks: .ipynb file\nDownload Where?\n\n:warning: Note: This code has been tested only on Ubuntu. While it may work on other operating systems, compatibility and functionality are not guaranteed.\n\nPreparations:\n-Install ImageMagick\n-Install C3D\nHow to use: Please follow the instructions in the code."
+  },
+  {
+    "objectID": "Software.html#stitching-with-bigstitcher",
+    "href": "Software.html#stitching-with-bigstitcher",
+    "title": "Software",
+    "section": "Stitching with Bigstitcher",
+    "text": "Stitching with Bigstitcher"
+  },
+  {
+    "objectID": "Software.html#digree-fusion-by-3d-slicer-and-bigstitcher",
+    "href": "Software.html#digree-fusion-by-3d-slicer-and-bigstitcher",
+    "title": "Software",
+    "section": "0-180 digree fusion by 3D slicer and Bigstitcher",
+    "text": "0-180 digree fusion by 3D slicer and Bigstitcher"
+  },
+  {
+    "objectID": "Software.html#how-to-use",
+    "href": "Software.html#how-to-use",
+    "title": "Software",
+    "section": "How to use:",
+    "text": "How to use:\n\nprepare a reference xy image(1) and a sample xyz stack(2).\n\na reference xy image In order to get the reference image, hogehoge… acquired using dye-solving solution (e.g., CUBIC-R + FITC reagent)…\na sample xyz image stack to be corrected\n\nrun macro with ImageJ/Fiji\n\n\nTiling light-sheet method: tiling x position finder (ImageJ macro)\n\nNot available (404 error)\n\n\n\nCompile NIfTI file from TIF(TIFF) stacks: .ipynb file\nDownload Where?\n\n:warning: Note: This code has been tested only on Ubuntu. While it may work on other operating systems, compatibility and functionality are not guaranteed.\n\nPreparations:\n-Install ImageMagick\n-Install C3D\nHow to use: Please follow the instructions in the code.\n\n\nStitching with Bigstitcher\n\n\n0-180 digree fusion by 3D slicer and Bigstitcher"
   }
 ]

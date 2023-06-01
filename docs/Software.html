@@ -9,7 +9,7 @@
 <meta name="author" content="Marcelo Rosales">
 <meta name="dcterms.date" content="2023-05-26">
 
-<title>descSPIM_LSmicro - About</title>
+<title>descSPIM_LSmicro - Software</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -65,8 +65,8 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="styles.css">
-<meta property="og:title" content="descSPIM_LSmicro - About">
-<meta property="og:description" content="descSPIM : affordable but versatile light-sheet microscopy system for tissue clearing end users">
+<meta property="og:title" content="descSPIM_LSmicro - Software">
+<meta property="og:description" content="Download here">
 <meta property="og:site-name" content="descSPIM_LSmicro">
 </head>
 
@@ -91,11 +91,11 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./about.html" aria-current="page">
+    <a class="nav-link" href="./about.html">
  <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./Software.html">
+    <a class="nav-link active" href="./Software.html" aria-current="page">
  <span class="menu-text">Software</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -118,7 +118,7 @@ ul.task-list li input[type="checkbox"] {
     </nav>
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">About</h1>
+      <h1 class="quarto-secondary-nav-title">Software</h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -136,14 +136,14 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#about-descspim" id="toc-about-descspim" class="nav-link active" data-scroll-target="#about-descspim">About descSPIM</a>
+  <li><a href="#flat-field-correction-imagej-macro" id="toc-flat-field-correction-imagej-macro" class="nav-link active" data-scroll-target="#flat-field-correction-imagej-macro">Flat-field correction (ImageJ macro)</a></li>
+  <li><a href="#how-to-use" id="toc-how-to-use" class="nav-link" data-scroll-target="#how-to-use">How to use:</a>
   <ul class="collapse">
-  <li><a href="#what-is-descspim" id="toc-what-is-descspim" class="nav-link" data-scroll-target="#what-is-descspim">What is descSPIM?</a></li>
-  <li><a href="#what-are-ideal-imaging-applications-for-a-descspim" id="toc-what-are-ideal-imaging-applications-for-a-descspim" class="nav-link" data-scroll-target="#what-are-ideal-imaging-applications-for-a-descspim">What are ideal imaging applications for a descSPIM?</a></li>
+  <li><a href="#tiling-light-sheet-method-tiling-x-position-finder-imagej-macro" id="toc-tiling-light-sheet-method-tiling-x-position-finder-imagej-macro" class="nav-link" data-scroll-target="#tiling-light-sheet-method-tiling-x-position-finder-imagej-macro">Tiling light-sheet method: tiling x position finder (ImageJ macro)</a></li>
+  <li><a href="#compile-nifti-file-from-tiftiff-stacks-.ipynb-file" id="toc-compile-nifti-file-from-tiftiff-stacks-.ipynb-file" class="nav-link" data-scroll-target="#compile-nifti-file-from-tiftiff-stacks-.ipynb-file">Compile NIfTI file from TIF(TIFF) stacks: .ipynb file</a></li>
+  <li><a href="#stitching-with-bigstitcher" id="toc-stitching-with-bigstitcher" class="nav-link" data-scroll-target="#stitching-with-bigstitcher">Stitching with Bigstitcher</a></li>
+  <li><a href="#digree-fusion-by-3d-slicer-and-bigstitcher" id="toc-digree-fusion-by-3d-slicer-and-bigstitcher" class="nav-link" data-scroll-target="#digree-fusion-by-3d-slicer-and-bigstitcher">0-180 digree fusion by 3D slicer and Bigstitcher</a></li>
   </ul></li>
-  <li><a href="#guide-to-install" id="toc-guide-to-install" class="nav-link" data-scroll-target="#guide-to-install">Guide to install</a></li>
-  <li><a href="#terms-and-conditions" id="toc-terms-and-conditions" class="nav-link" data-scroll-target="#terms-and-conditions">Terms and Conditions</a></li>
-  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
   </ul>
 </nav>
     </div>
@@ -152,7 +152,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">About</h1>
+<h1 class="title d-none d-lg-block">Software</h1>
 </div>
 
 
@@ -179,68 +179,48 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="about-descspim" class="level2">
-<h2 class="anchored" data-anchor-id="about-descspim">About descSPIM</h2>
-<p>descSPIM : affordable but versatile light-sheet microscopy system for tissue clearing end users</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://github-production-user-asset-6210df.s3.amazonaws.com/126061350/237289830-f2d5b706-65d0-48b8-8c36-c4be8a2e1a56.png" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">descSPIM_CAD_for_GitHub_middle</figcaption><p></p>
-</figure>
-</div>
-<section id="what-is-descspim" class="level3">
-<h3 class="anchored" data-anchor-id="what-is-descspim">What is descSPIM?</h3>
-<p>descSPIM is a lightsheet microscopy system that we designed to meet the unmet needs of researchers who are using tissue clearing techniques. The system offers a low-cost and easy-to-use solution for 3D imaging of cleared tissue samples that requires little expertise and cost. Most optical components are readily available from a single vendor and can be readily assembled using the instructions provided. These minimal optical parts are arranged on a small optical breadboard. In contrast to existing lightsheet systems, descSPIM is intended to be simple to install, build, and operate, even for end users with no prior experience in optics. descSPIM is also highly expandable and can be customized to suit a variety of applications, making it a versatile tool for a wide range of research projects. With descSPIM, researchers can easily achieve practical-quality 3D imaging of cleared specimens in a daily experiments.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://github-production-user-asset-6210df.s3.amazonaws.com/126061350/237290075-952cae5c-883a-4f3d-b6ba-bc8a15625755.png" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">descSPIM_cost_vs_expertise_for_GitHub (1)_middle</figcaption><p></p>
-</figure>
-</div>
-<p>The main features of descSPIM are: Easy-to-build Easy-to-operate (use a cuvette / no oil chamber) Affordable ($20k-50k for descSPIM-basic, depending on the number of lasers) Compact (all parts on a 300 mm x 450 mm breadboard)Versatile (highly expandable and customizable)## Who is the descSPIM for?</p>
-<p>Researchers interested in using Light-sheet fluorescence microscopy (LSFM) for cleared tissue imaging</p>
+<section id="flat-field-correction-imagej-macro" class="level2">
+<h2 class="anchored" data-anchor-id="flat-field-correction-imagej-macro">Flat-field correction (ImageJ macro)</h2>
+<p><a href="https://github.com/dbsb-juntendo/descSPIM/blob/main/FlatfieldCorrection_IJmacro_ver230406.ijm">Download here</a></p>
+<blockquote class="blockquote">
+<p>Not available anymore (404 error)</p>
+</blockquote>
 </section>
-<section id="what-are-ideal-imaging-applications-for-a-descspim" class="level3">
-<h3 class="anchored" data-anchor-id="what-are-ideal-imaging-applications-for-a-descspim">What are ideal imaging applications for a descSPIM?</h3>
-<ul>
-<li>Macro- to meso-scale imaging of 3D volumetric samples prepared by tissue clearing techniques with strong efficiency (CUBIC, BABB, DISCO, SHIELDs etc.)</li>
-<li>Visualization of cell populations or anatomical structures (e.g.&nbsp;blood vessels, plaques) with cellular to sub-cellular resolutions</li>
-</ul>
+<section id="how-to-use" class="level2">
+<h2 class="anchored" data-anchor-id="how-to-use">How to use:</h2>
+<ol type="1">
+<li>prepare a reference xy image(1) and a sample xyz stack(2).
+<ol type="a">
+<li>a reference xy image In order to get the reference image, hogehoge… acquired using dye-solving solution (e.g., CUBIC-R + FITC reagent)…</li>
+<li>a sample xyz image stack to be corrected</li>
+</ol></li>
+<li>run macro with ImageJ/Fiji</li>
+</ol>
+<section id="tiling-light-sheet-method-tiling-x-position-finder-imagej-macro" class="level3">
+<h3 class="anchored" data-anchor-id="tiling-light-sheet-method-tiling-x-position-finder-imagej-macro">Tiling light-sheet method: tiling x position finder (ImageJ macro)</h3>
+<blockquote class="blockquote">
+<p>Not available (404 error)</p>
+</blockquote>
 </section>
+<section id="compile-nifti-file-from-tiftiff-stacks-.ipynb-file" class="level3">
+<h3 class="anchored" data-anchor-id="compile-nifti-file-from-tiftiff-stacks-.ipynb-file">Compile NIfTI file from TIF(TIFF) stacks: .ipynb file</h3>
+<p><a href="">Download Where?</a></p>
+<blockquote class="blockquote">
+<p>:warning: <strong>Note:</strong> This code has been tested only on Ubuntu. While it may work on other operating systems, compatibility and functionality are not guaranteed.</p>
+</blockquote>
+<p>Preparations:</p>
+<p>-Install ImageMagick</p>
+<p>-Install C3D</p>
+<p>How to use: Please follow the instructions in the code.</p>
 </section>
-<section id="guide-to-install" class="level2">
-<h2 class="anchored" data-anchor-id="guide-to-install">Guide to install</h2>
-<p>It is recommended to start learning</p>
-<p><a href="">Basic of optics</a> and</p>
-<p><a href="">Cleared sample preparation</a>,</p>
-<p><a href="">descSPIM-basic</a>.</p>
-<p>Add-on functions are developed to be compatible with the basic system.</p>
-<p>Related codes can be available here: <a href="https://github.com/dbsb-juntendo/descSPIM/blob/main/DOCs/Data%20processing.md">Data processing</a></p>
+<section id="stitching-with-bigstitcher" class="level3">
+<h3 class="anchored" data-anchor-id="stitching-with-bigstitcher">Stitching with Bigstitcher</h3>
 </section>
-<section id="terms-and-conditions" class="level2">
-<h2 class="anchored" data-anchor-id="terms-and-conditions">Terms and Conditions</h2>
-<p>By using descSPIM, you agree to abide by these terms and conditions:</p>
-<ul>
-<li><p>This system is only available for academic use. Any use for commercial purposes is strictly prohibited, unless permission is granted by the authors.</p></li>
-<li><p>Academic users are allowed to use, apply, and adopt the system in accordance with the CC by 4.0 license policy. This includes modifications, adaptations, and redistribution of the system and its components.</p></li>
-<li><p>If any commercial enterprise wants to use, produce, or sell the system, they must contact the authors (suishess-kyu@umin.ac.jp) to request permission.</p></li>
-<li><p>All users of the system must acknowledge and refer to the original paper (Otomo et al.&nbsp;bioRxiv 2023) in any publications or presentations resulting from the use of the system.</p></li>
-<li><p>The authors are not responsible for any consequences arising from the use of this system as well as related tools, scripts, and software. Users assume all risks and liabilities associated with the use.</p></li>
-<li><p>The authors reserve the right to modify or terminate the system and its services at any time, without prior notice.</p></li>
-<li><p>Users agree to comply with all applicable laws and regulations regarding the use of the system.</p></li>
-<li><p>Any disputes arising from the use of this system shall be resolved through negotiation between the parties. If a resolution cannot be reached, the dispute shall be submitted to binding arbitration in accordance with the laws of Japan.</p></li>
-</ul>
-</section>
-<section id="references" class="level2">
-<h2 class="anchored" data-anchor-id="references">References</h2>
-<p>-<a href="https://www.biorxiv.org/content/10.1101/2023.05.02.539136v2">Otomo et al.&nbsp;descSPIM: Affordable and Easy-to-Build Light-Sheet Microscopy for Clearing Technique Users. bioRxiv (2023)</a></p>
-<ul>
-<li><p><a href="https://doi.org/10.1038/s41467-020-15906-5">Susaki et al.&nbsp;Versatile whole-organ/body staining and imaging based on electrolyte-gel properties of biological tissues. Nat Commun 11, 1982 (2020)</a></p></li>
-<li><p><a href="https://doi.org/10.1038/s41596-019-0240-9">Matsumoto et al.&nbsp;Advanced CUBIC tissue clearing for whole-organ cell profiling. Nat Protoc 14, 3506–3537 (2019)</a></p></li>
-<li><p><a href="http://cubic.riken.jp">CUBIC resource website</a></p></li>
-</ul>
+<section id="digree-fusion-by-3d-slicer-and-bigstitcher" class="level3">
+<h3 class="anchored" data-anchor-id="digree-fusion-by-3d-slicer-and-bigstitcher">0-180 digree fusion by 3D slicer and Bigstitcher</h3>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

@@ -27,7 +27,7 @@ The light sheet microscope captures images by detecting the fluorescent light em
 
 ![](images/Screenshot%20at%20Jun%2002%2003-36-28.png)
 
-### The Sample Chamber
+### Sample
 
 ![](images/Screenshot%20at%20Jun%2002%2003-47-55.png)
 

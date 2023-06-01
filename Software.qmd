@@ -1,0 +1,45 @@
+---
+title: "Software"
+author: "Marcelo Rosales"
+date: "2023/05/26"
+format: 
+  html: 
+    code-fold: false
+    code-copy: true
+    code-overflow: wrap
+---
+
+## Flat-field correction (ImageJ macro)
+
+[Download here](https://github.com/dbsb-juntendo/descSPIM/blob/main/FlatfieldCorrection_IJmacro_ver230406.ijm)
+
+> Not available anymore (404 error)
+
+## How to use:
+
+1.  prepare a reference xy image(1) and a sample xyz stack(2).
+    (a) a reference xy image In order to get the reference image, hogehoge... acquired using dye-solving solution (e.g., CUBIC-R + FITC reagent)...
+    (b) a sample xyz image stack to be corrected
+2.  run macro with ImageJ/Fiji
+
+### Tiling light-sheet method: tiling x position finder (ImageJ macro)
+
+> Not available (404 error)
+
+### Compile NIfTI file from TIF(TIFF) stacks: .ipynb file
+
+[Download Where?]()
+
+> :warning: **Note:** This code has been tested only on Ubuntu. While it may work on other operating systems, compatibility and functionality are not guaranteed.
+
+Preparations:
+
+-Install ImageMagick
+
+-Install C3D
+
+How to use: Please follow the instructions in the code.
+
+### Stitching with Bigstitcher
+
+### 0-180 digree fusion by 3D slicer and Bigstitcher
