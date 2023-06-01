@@ -1,0 +1,52 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "descSPIM_LSmicro"
+  favicon: ""
+  open-graph: true
+  search: true
+  navbar:
+    background: light
+    logo: ""
+    logo-alt: ""
+    logo-href: ""
+    collapse-below: lg
+    
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+      - text: Supplementary
+        menu: 
+          - href: ""
+          - text: Videos
+
+    right: 
+      - icon: github
+        href: ""
+      - icon: rss
+
+  sidebar: 
+    - id: ""
+
+format:
+  html:
+    theme: 
+      light: [cosmo, theme.scss]
+      dark: [cosmo, theme-dark.scss]
+    css: styles.css
+    code-copy: true
+    code-overflow: wrap
+    code-link: true
+    toc: true
+    include-after-body: js.html
+    self-contained: false
+    grid:
+      sidebar-width: 250px
+      body-width: 900px
+      margin-width: 300px
+
+editor: source
+
