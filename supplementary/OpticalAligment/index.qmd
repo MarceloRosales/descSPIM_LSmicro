@@ -2,6 +2,15 @@
 title: "Optical Aligment"
 ---
 
+To do next before 3D imaging:
+
+1.  Laser light beam check and collimation (Collimating lens)
+2.  Laser light beam alignments (Collimating lens and Mirror 1, 2 and 3)
+3.  Cylindrical lens installation (Cylindrical lens 1 or 2 with x-stage)
+4.  Actuators and camera setup (Sample stage and detection optics)
+5.  Fluorescence signal check (Sample stage and detection optics)
+6.  Follow-up alignments (Cylindrical lens and detection optics; if required)
+
 # PDF
 
 <iframe width="100%" height="900px" src="../../resources/opticalalignment_ver230520.pdf">
