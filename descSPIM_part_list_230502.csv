@@ -1,0 +1,89 @@
+﻿descSPIM-basic 230502,Notes,Part Number,Quantity
+Det. Optics,CMOS camera ＊1,CS895MU,1
+,Adapter with External C-Mount Threads and Internal SM1 Threads,SM1A9,1
+,"SM1 Lens Tube, 1.00"" Thread Depth, One Retaining Ring Included",SM1L10,1
+,"SM1 Lens Tube, 0.30"" Thread Depth, One Retaining Ring Included",SM1L03,1
+,Adapter with External SM1 Threads and Internal SM2 Threads,SM1A2,2
+,"Tube Lens, f = 100 mm, ARC: 350 - 700 nm, External SM2 Threads  ＊2",TTL100-A,1
+,"SM1 Lens Tube, 1.50"" Thread Depth, One Retaining Ring Included",SM1L15,1
+,"Fast-Change, SM1 Lens Tube Filter Holder for Filters 3.5 - 6.3 mm Thick ＊3",SM1QP,1
+,Extra Filter Carriage for Filters 3.5 - 6.3 mm Thick ＊3,SM1QT,1
+,"Premium Bandpass Filter, Ø25 mm, CWL = 520 nm, FWHM = 40 nm ＊4",FBH520-40,1
+,"Premium Bandpass Filter, Ø25 mm, CWL = 550 nm, FWHM = 40 nm ＊4",FBH550-40,1
+,"Premium Bandpass Filter, Ø25 mm, CWL = 600 nm, FWHM = 40 nm ＊4",FBH600-40,1
+,"Premium Bandpass Filter, Ø25 mm, CWL = 700 nm, FWHM = 40 nm ＊4",FBH700-40,1
+,"Ø25.0 mm Longpass Filter, Cut-On Wavelength: 550 nm",FBLF0550,1
+," SM1 Lens Tube Without External Threads, 1/2"" Long, Two Retaining Rings Included",SM1M05,1
+,Adapter with External SM1 Threads and Internal M25 x 0.75 Threads,SM1A12,1
+,"2X obj lens (NA 0.1, w.d. 56.3 mm)",TL2X-SAP,1
+,Clamp for SM1 Lens Tubes and C-Mount Extension Tubes,SM1TC,2
+,"Ø12.7 mm Post Holder, Spring-Loaded Hex-Locking Thumbscrew, L=30 mm",PH30/M,2
+,"Ø12 mm Optical Post, SS, M4 Setscrew, M6 Tap, L = 30 mm",TR30/M-JP,2
+,"25 mm Travel Linear Translation Stage, Side-Mounted Micrometer, M6 x 1.0 Taps",XR25P/M,1
+,"25 mm Motorized Actuator with Ø3/8"" Barrel (0.5 m Cable)",Z825B,1
+,K-Cube Brushed DC Servo Motor Controller (Power Supply Not Included),KDC101,1
+,"K-Cube Power Supply, 15V 2.4A, Japan",KPS201,1
+,,,
+Sample holder,150mm Long Rail for XR25,XR25DR2,1
+,"Metric Linear Translation Platform, 25mm",XR25P/M,2
+,"25 mm Motorized Actuator with Ø3/8"" Barrel (0.5 m Cable)",Z825B,1
+,K-Cube Brushed DC Servo Motor Controller (Power Supply Not Included),KDC101,1
+,"K-Cube Power Supply, 15V 2.4A, Japan",KPS201,1
+,Mounting Post Base 2.48 x 0.4 x 0.265,PB1,1
+,38mm Solid Post 50mm Length,P50/M,1
+,Metric Coarse Adjustable Height Platform,C1519/M,1
+,13mm Travel Manual Vertical Stage,MVS05/M,1
+,"Dovetail Optical Rail, 300 mm, Metric",RLA300/M,2
+,"High-Precision Rotation Stage, M6 and M4 Taps",PR01/M,1
+,"Cage Assembly Rod, 2"" Long, Ø6 mm, 4 Pack",ER2-P4,1
+,"Cage Assembly Rod, 4"" Long, Ø6 mm, 4 Pack",ER4-P4,1
+,"Compact Cage Assembly Rod, 1.5"" Long, Ø4 mm, 4 Pack",SR1.5-P4,1
+,"Blank 30 mm Cage Plate, 8.9 mm Thick, M4 x 0.7 Tap",CP31/M,1
+,"Blank 16 mm Cage Plate, 0.25"" Thick, 4-40 and M3 Taps",SP01,1
+,"30 mm to 16 mm Cage Adapter Plate, M4 Tap",SP15/M,1
+,,,
+Ex. Optics,Metric Threaded Cage Plate,CP33/M,3
+,SM1 to FC/APC Fiber Bulkhead Adapter ＊5,SM1FCA,1
+,"High Precision Translating Lens Mount for 1"" Optics",CXY1A,1
+,"f = 100 mm, Ø1"" Achromatic Doublet, ARC: 400 - 700 nm",AC254-100-A,1
+,Metric SM1 Right Angle Kinematic Mirror Mount ,KCB1EC/M,3
+,"1"" Broadband Dielectric Elliptical Mirror, 400 - 750 nm ",BBE1-E02,3
+,"Ø1"" Adjustable Lens Tube, 0.31"" Travel Range",SM1V05,2
+,"SM1 Lens Tube, 1.00"" Thread Depth, One Retaining Ring Included",SM1L10,1
+,"13 mm manual Translation stage, 30 mm Cage Compatible",CT1A/M,1
+,"f = 500.0 mm, Ø1"", N-BK7 Mounted Plano-Convex Round Cyl Lens, ARC 350-700",LJ1144RM-A,1
+,"f = 150.0 mm, Ø1"" Cylindrical Achromat, AR Coating: 350 - 700 nm",ACY254-150-A,1
+,"Ø12.7 mm Post Holder, Spring-Loaded Hex-Locking Thumbscrew, L=150 mm",PH150/M,3
+,"Ø12.7 mm Post Holder, Spring-Loaded Hex-Locking Thumbscrew, L=50 mm",PH50/M,1
+,"Ø12 mm Optical Post, SS, M4 Setscrew, M6 Tap, L = 50 mm",TR50/M-JP ,4
+,"Cage Assembly Rod, 4"" Long, Ø6 mm, 4 Pack",ER4-P4,4
+,"Cage Assembly Rod, 2"" Long, Ø6 mm, 4 Pack",ER2-P4,2
+,"Cage Assembly Rod, 3"" Long, Ø6 mm, 4 Pack",ER3-P4,1
+,"Snap-On 30 mm Cage Mounting Bracket, #8 (M4) Slot",CPMA3,4
+,,,
+Others,"Aluminum Breadboard, 300 mm x 450 mm x 12.7 mm, M6 Taps",MB3045/M ,1
+,"Magnetic Laser Safety Screen, 200 mm x 75 mm, Metric Engraving",TPSM1/M,1
+,30 mm Cage Alignment Plate with Ø5 mm Hole,CPA2,1
+,"15-Piece Balldriver and Hex Key Kit with Stand, Metric",TC3/M,1
+,"M6 x 1.0 Stainless Steel Cap Screw, 10 mm Long, 25 Pack",SH6MS10,2
+,"M4 x 0.7 Stainless Steel Cap Screw, 6 mm Long, 50 Pack",SH4MS06,1
+,"M6 x 1.0 Stainless Steel Setscrew, 10 mm Long, 25 Pack",SS6MS10,1
+,"M6 x 1.0 Stainless Steel Nut, 50 Pack",N6MS010,1
+,,,
+Besides Thorlabs,Multi-line laser ligh source (Cobolt skyra etc.) ＊6,,
+,"Multi-line laser ligh source (Coherent OBIS, Cobolt 06 series etc.) ＊6",,
+,M6 cap screw (60 mm-length),e.g. TRUSCO PRO TOOL B44-0660,4
+,4-side cleared BK7 cuvette (Opt. Length 10 mm or 20 mm; GL Science etc),"F10-G-10 or F10-G-20
+(GL Science)",
+,"4-side cleared disposable cuvette (Opt. Length 10 mm; Thermo Fisher Scientific, Bio-Rad etc)","14-955-129 (Thermo Fischer)
+1702415 (Bio-Rad)",
+,,,
+,,,
+,＊1 Other monochro cameras (Thorlabs or others) are acceptable accoding to desired FOV,,
+,＊2 The tube lens of 200 mm focal length with additional SM1L35 can be set for 2X magnification.,,
+,"＊3 If you use the filter wheel (LTFW6; 50,755 JPY), SM1M05 should be exchange to SM1L05.",,
+,＊4-1 Filters should be selected by users,,
+,"＊4−2 Filter holder is designed for >3.5 mm thickness. If thinner, SM1QU/SM1QTU can be used.",,
+,"＊5 If FC/PC fiber, SM1FC can be used.",,
+,＊6 Sigle-mode fiber coupled laser light source,,
+,"Provided by Department of Biochemistry and Systems Biomedicine, Graduate School of Medicine, Juntendo University. All Rights Reserved. ",,

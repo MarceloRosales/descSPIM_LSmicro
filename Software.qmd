@@ -34,12 +34,57 @@ format:
 
 Preparations:
 
--Install ImageMagick
+-   Install [ImageMagick](https://imagemagick.org/index.php)
 
--Install C3D
+-   Install [C3D](https://pypi.org/project/c3d/)
 
 How to use: Please follow the instructions in the code.
 
 ### Stitching with Bigstitcher
 
 ### 0-180 digree fusion by 3D slicer and Bigstitcher
+
+### descSpim parts list
+
+```{r}
+#| include: false
+
+# install.packages("kableExtra")
+# install.packages("AER")
+# install.packages("tinytex")
+library(kableExtra)
+library(magrittr)
+library(shiny)
+library(knitr)
+library(tinytex)
+library(AER)
+library(tidyverse)
+help("kableExtra")
+help("kable")
+```
+
+```{r}
+#| echo: false
+
+descSPIM_part_list_230502 <- read.csv("/Users/marcelorosales/Documents/GitHub/Quarto/descSPIM_LSmicro/descSPIM_part_list_230502.csv")
+
+kbl(descSPIM_part_list_230502, caption = "descSPIM parts list table") %>%
+  kable_styling(bootstrap_options = "striped",
+                full_width = F) 
+
+
+```
+
+```{r}
+#| include: false
+#| eval: false
+
+
+descSPIM_part_list_230502 <- read.csv("/Users/marcelorosales/Documents/GitHub/Quarto/descSPIM_LSmicro/descSPIM_part_list_230502.csv")
+
+descSPIM_part_list_230502
+str(descSPIM_part_list_230502)
+
+knitr::kable(descSPIM_part_list_230502, "pipe", align = "c")
+
+```
