@@ -22,8 +22,6 @@ website:
         text: Software
       - text: Supplementary
         menu: 
-          - href: ""
-            text: Videos
           - href: supplementary/3dimaging/index.qmd
             text: "3D Imaging"
           - href: supplementary/construction/index.qmd
