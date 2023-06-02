@@ -7,5 +7,14 @@
   },
   "Software.qmd": {
     "Software.html": "7a7f3214"
+  },
+  "supplementary/3dimaging/index.qmd": {
+    "index.html": "351e68d4"
+  },
+  "supplementary/construction/index.qmd": {
+    "index.html": "45a68118"
+  },
+  "supplementary/OpticalAligment/index.qmd": {
+    "index.html": "b419de14"
   }
 }

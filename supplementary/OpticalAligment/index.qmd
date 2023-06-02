@@ -1,0 +1,9 @@
+---
+title: "Optical Aligment"
+---
+
+# PDF
+
+<iframe width="100%" height="900px" src="../../resources/opticalalignment_ver230520.pdf">
+
+</iframe>

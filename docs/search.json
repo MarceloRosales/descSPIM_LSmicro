@@ -96,5 +96,26 @@
     "title": "About",
     "section": "DescSPIM microscope",
     "text": "DescSPIM microscope\n\n\nFocus tracing\n\n\na. A conventional system with a positionally fixed medium chamber fulfilled with a clearing reagent or a RI-matched immersion oil (e.g., n = 1.52). The sample is moved along the z-axis within the chamber. In this case, the ratio of A (the distance from the chamber wall to the light-sheet illumination, with RI of the immersion reagent) and B (the distance from the objective lens to the chamber wall, with RI of the air (1.0)) is fixed.\nb. descSPIM sample imaging method employing a cuvette as a sample container. In this case, due to the movement of the sample chamber (the cuvette) during imaging, the ratio of A and B is altered, resulting in defocus. descSPIM applies synchronized movement of the sample stage (zsample) and the detection optics (zdetect) to prevent the defocus. See Supplementary Fig. 4 and Methods for details on how to calculate the synchronous speed correction value (the relative velocity of two actuators).\nWorkflow\n\n\nWorkflow"
+  },
+  {
+    "objectID": "supplementary/3dimaging/index.html",
+    "href": "supplementary/3dimaging/index.html",
+    "title": "3D imaging",
+    "section": "",
+    "text": "Embedded PDF"
+  },
+  {
+    "objectID": "supplementary/construction/index.html",
+    "href": "supplementary/construction/index.html",
+    "title": "Construction",
+    "section": "",
+    "text": "Embedded PDF"
+  },
+  {
+    "objectID": "supplementary/OpticalAligment/index.html",
+    "href": "supplementary/OpticalAligment/index.html",
+    "title": "Optical Aligment",
+    "section": "",
+    "text": "PDF"
   }
 ]
