@@ -7,19 +7,38 @@ format:
     code-fold: false
     code-copy: true
     code-overflow: wrap
+filters:
+  - lightbox
+lightbox:
+  match: auto
 ---
+
+```{r}
+#| include: false
+
+library(quarto)
+```
+
+```{bash}
+#| include: false
+#| eval: false
+
+# Run this command in terminal, will install the extension inside the project folder itself. It is required for function of lightbox.
+
+quarto add quarto-ext/lightbox
+```
 
 ## About descSPIM
 
 descSPIM : affordable but versatile light-sheet microscopy system for tissue clearing end users
 
-![descSPIM_CAD_for_GitHub_middle](https://github-production-user-asset-6210df.s3.amazonaws.com/126061350/237289830-f2d5b706-65d0-48b8-8c36-c4be8a2e1a56.png)
+![descSPIM_CAD_for_GitHub_middle](https://github-production-user-asset-6210df.s3.amazonaws.com/126061350/237289830-f2d5b706-65d0-48b8-8c36-c4be8a2e1a56.png){group="gallery01"}
 
 ### What is descSPIM?
 
 descSPIM is a lightsheet microscopy system that we designed to meet the unmet needs of researchers who are using tissue clearing techniques. The system offers a low-cost and easy-to-use solution for 3D imaging of cleared tissue samples that requires little expertise and cost. Most optical components are readily available from a single vendor and can be readily assembled using the instructions provided. These minimal optical parts are arranged on a small optical breadboard. In contrast to existing lightsheet systems, descSPIM is intended to be simple to install, build, and operate, even for end users with no prior experience in optics. descSPIM is also highly expandable and can be customized to suit a variety of applications, making it a versatile tool for a wide range of research projects. With descSPIM, researchers can easily achieve practical-quality 3D imaging of cleared specimens in a daily experiments.
 
-![descSPIM_cost_vs_expertise_for_GitHub (1)\_middle](https://github-production-user-asset-6210df.s3.amazonaws.com/126061350/237290075-952cae5c-883a-4f3d-b6ba-bc8a15625755.png)
+![descSPIM_cost_vs_expertise_for_GitHub (1)\_middle](https://github-production-user-asset-6210df.s3.amazonaws.com/126061350/237290075-952cae5c-883a-4f3d-b6ba-bc8a15625755.png){group="gallery01"}
 
 The main features of descSPIM are: Easy-to-build Easy-to-operate (use a cuvette / no oil chamber) Affordable (\$20k-50k for descSPIM-basic, depending on the number of lasers) Compact (all parts on a 300 mm x 450 mm breadboard)Versatile (highly expandable and customizable)## Who is the descSPIM for?
 
@@ -66,7 +85,7 @@ By using descSPIM, you agree to abide by these terms and conditions:
 
 ## DescSPIM microscope
 
-![](images/Screenshot%20at%20Jun%2002%2012-33-08.png)
+![Focus tracing](images/Screenshot%20at%20Jun%2002%2012-33-08.png){group="gallery01"}
 
 a\. A conventional system with a positionally fixed medium chamber fulfilled with a clearing reagent or a RI-matched immersion oil (e.g., n = 1.52). The sample is moved along the z-axis within the chamber. In this case, the ratio of A (the distance from the chamber wall to the light-sheet illumination, with RI of the immersion reagent) and B (the distance from the objective lens to the chamber wall, with RI of the air (1.0)) is fixed.
 
@@ -74,7 +93,7 @@ b\. descSPIM sample imaging method employing a cuvette as a sample container. In
 
 ### Workflow
 
-![](images/Screenshot%20at%20Jun%2002%2012-38-06.png)
+![Workflow](images/Screenshot%20at%20Jun%2002%2012-38-06.png){group="gallery01"}
 
 ## References
 
