@@ -49,9 +49,11 @@ Shadowing
 
 ### Improvements
 
-Pivoting, Double side illumination & Bessel beam illumination
+Double side illumination, Pivoting and Bessel beam illumination
 
 ![](images/Screenshot%20at%20Jun%2002%2004-12-52.png)
+
+Pivoting
 
 ![](images/Screenshot%20at%20Jun%2002%2004-14-17.png)
 
