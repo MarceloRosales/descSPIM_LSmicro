@@ -102,7 +102,7 @@
     "href": "supplementary/3dimaging/index.html",
     "title": "3D imaging",
     "section": "",
-    "text": "PDF"
+    "text": "Acquire continuous time-lapse images utilizing ThorCam while moving two motorized stages by “Sequence” function of Kinesis. And convert acquired xyt image data set to xyz image data set.\n\n1 Camera and software are exchangeable, if they can capture continuous time-lapse images and save them as tif format\n2 Manual jog operation of the speed wheel enables the same job.\n3 Original program to control the whole process is also under construction.\n\n\nPDF"
   },
   {
     "objectID": "supplementary/construction/index.html",
