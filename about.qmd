@@ -113,18 +113,43 @@ short code
 -   Neural transport (fly wings)
 -   Isotropic imaging
 -   Functional imaging...
--   Segmenting cell in a volume... (photo activate cells based on where cells are)
+-   Segmenting cells in a volume... (photo activate cells based on where cells are)
 -   
 
 Find papers related to bone, pdl and light sheet microscope (SPIM, **selective plane illumination microscope**) .
 
--   bone and SPIM @greenbaum2017: Different bone types harbor specialized physiological processes that are key for proper development and survival of the organism, such as replenishment of hematopoietic cells, growth, and remodeling of the bone during healthy and diseased state. Whole-bone clearing, light-sheet imaging with a custom-built microscope, and dedicated computational methods for counting fluorescently labeled cells. This trio of methods were used to visualize and quantify the total number of osteoprogenitors contained within a volume of mouse bone and map their 3D spatial distribution in response to a sclerostin antibody (Scl-Ab), a boneforming agent.
+-   Bone osteoprogenitors imaging with SPIM @greenbaum2017: Different bone types harbor specialized physiological processes that are key for proper development and survival of the organism, such as replenishment of hematopoietic cells, growth, and remodeling of the bone during healthy and diseased state. Whole-bone clearing, light-sheet imaging with a custom-built microscope, and dedicated computational methods for counting fluorescently labeled cells. This trio of methods were used to visualize and quantify the total number of osteoprogenitors contained within a volume of mouse bone and map their 3D spatial distribution in response to a sclerostin antibody (Scl-Ab), a boneforming agent.
 
--   number of osteoprogenitors contained within a volume of mouse bone and map their 3D spatial distribution
+![greenbaum](images/greenbaum_img_001.png){alt="greenbaum," group="gallery02"}
 
-Volumetric (3D) Distribution of vascular network in relation to Progenitor cells (Osteo, cementoblasts)
+-   Neural and Vascular networks of pulp with SPIM @frança2019:
+
+![frança2019](images/franca2019_img_001.png){alt="frança2019," group="gallery02"}
+
+-   Three-dimensional histochemistry and imaging of human gingiva @azaripour2018
+-   3D cellular visualization of intact mouse tooth @hong2019
+
+![\@hong2019](images/hong2019_img_001.png){alt="@hong2019," group="gallery02"}
+
+-   3D imaging of the cranial microvascular environment at single-cell resolution @rindone2021
+
+![\@rindone2021](images/rindone2021_img_001.png){alt="@rindone2021," group="gallery02"}
+
+-   Tissue Clearing and Its Application to Bone and Dental Tissues @jing2019: Applications of LSFM have been demonstrated by many TC studies, including CLARITY, CUBIC, uDISCO, SeeDB2, and Bone CLARITY (Susaki et al. 2014; Ke et al. 2016; Pan et al. 2016; Greenbaum et al. 2017).
+
+![jing2019](images/jing2019_img_001.png){alt="jing2019," group="gallery02"}
+
+-   3D imaging of calcium dynamics and 3D imaging of cellular microstructure @sparks2020: studying dynamic events in cardiac tissue at high speed in 3D and the correlation of these events to cell microstructure by time-lapse imaging of calcium dynamics in a live cardiomyocyte.
+
+![sparks2020](images/sparks2020_img_001.png){group="gallery02"}
+
+Number of osteoprogenitors contained within a volume of mouse bone and map their 3D spatial distribution
+
+Volumetric (3D) Distribution of vascular network in relation to Progenitor cells (Osteo, cementoblasts) in PDL and calvaria.
 
 Distribution of neurovascular network in PDL. Does mechanical response is only by cell to cell comunication or is there a neural response?
+
+Calcium dynamics in bone repair (in calvaria defect, implant and tooth movement of PDL) like in sparks et al.
 
 ## References
 
