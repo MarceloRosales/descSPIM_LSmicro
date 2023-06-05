@@ -96,7 +96,17 @@ b\. descSPIM sample imaging method employing a cuvette as a sample container. In
 
 ![Workflow](images/Screenshot%20at%20Jun%2002%2012-38-06.png){group="gallery01"}
 
-## **Light Sheet Fluorescence Microscopy - Applications in research**
+## Light Sheet Fluorescence Microscopy - Applications in research
+
+```{r}
+#| eval: false
+
+SPIM_Apps_ideas.docx <- "/Users/marcelorosales/Box Sync/Niigata Uni Box/Books-Notes/Notes/SPIM_Apps_ideas.docx"
+#open in mac OS
+system(paste("open", shQuote(SPIM_Apps_ideas.docx)))
+
+
+```
 
 They use BIO-33 polymer index-math to water @han2021
 
@@ -114,6 +124,8 @@ short code
 -   Isotropic imaging
 -   Functional imaging...
 -   Segmenting cells in a volume... (photo activate cells based on where cells are)
+-   Analysis of cellular adhesion, distribution and motility
+-   cell lineage reconstructions in complex organisms
 
 ### Papers related to bone, pdl and light sheet microscope (SPIM, **selective plane illumination microscope**) .
 
@@ -124,6 +136,11 @@ short code
 5.  3D imaging of the cranial microvascular environment at single-cell resolution @rindone2021
 6.  Tissue Clearing and Its Application to Bone and Dental Tissues @jing2019
 7.  3D imaging of calcium dynamics and 3D imaging of cellular microstructure @sparks2020
+8.  3D non-invasive analysis of cellular distribution and motility on fibroin-alginate microcarriers @duchi2017
+    1.  Cells adhesion
+    2.  Cell motility analysis
+    3.  Cell distribution analysis (see videos)
+9.  Towards comprehensive cell lineage reconstructions in complex organisms @amat2013
 
 -   Bone osteoprogenitors imaging with SPIM @greenbaum2017: Different bone types harbor specialized physiological processes that are key for proper development and survival of the organism, such as replenishment of hematopoietic cells, growth, and remodeling of the bone during healthy and diseased state. Whole-bone clearing, light-sheet imaging with a custom-built microscope, and dedicated computational methods for counting fluorescently labeled cells. This trio of methods were used to visualize and quantify the total number of osteoprogenitors contained within a volume of mouse bone and map their 3D spatial distribution in response to a sclerostin antibody (Scl-Ab), a boneforming agent.
 
