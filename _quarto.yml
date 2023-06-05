@@ -16,18 +16,18 @@ website:
     
     left:
       - href: index.qmd
-        text: Home
+        text: "Home"
       - about.qmd
       - href: Software.qmd
-        text: Software
-      - text: Supplementary
+        text: "Software"
+      - text: "Supplementary"
         menu: 
           - href: supplementary/3dimaging/index.qmd
             text: "3D Imaging"
           - href: supplementary/construction/index.qmd
             text: "Construction"
           - href: supplementary/OpticalAligment/index.qmd
-            text: Optical Aligment
+            text: "Optical Aligment"
 
     right: 
       - icon: github
