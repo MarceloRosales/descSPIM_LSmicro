@@ -117,5 +117,12 @@
     "title": "Optical Aligment",
     "section": "",
     "text": "To do next before 3D imaging:\n\nLaser light beam check and collimation (Collimating lens)\nLaser light beam alignments (Collimating lens and Mirror 1, 2 and 3)\nCylindrical lens installation (Cylindrical lens 1 or 2 with x-stage)\nActuators and camera setup (Sample stage and detection optics)\nFluorescence signal check (Sample stage and detection optics)\nFollow-up alignments (Cylindrical lens and detection optics; if required)\n\n\nPDF"
+  },
+  {
+    "objectID": "about.html#light-sheet-fluorescence-microscopy---applications-in-research",
+    "href": "about.html#light-sheet-fluorescence-microscopy---applications-in-research",
+    "title": "About",
+    "section": "Light Sheet Fluorescence Microscopy - Applications in research",
+    "text": "Light Sheet Fluorescence Microscopy - Applications in research\nThey use BIO-33 polymer index-math to water Han et al. (2021)\n\nhttps://youtu.be/-MaPPjqE-ug\nshort code\n\n\nMicrofluidics\nNeural transport (fly wings)\nIsotropic imaging\nFunctional imaging…\nSegmenting cell in a volume… (photo activate cells based on where cells are)\n\n\nFind papers related to bone, pdl and light sheet microscope (SPIM, selective plane illumination microscope) .\n\nbone and SPIM Greenbaum et al. (2017): Different bone types harbor specialized physiological processes that are key for proper development and survival of the organism, such as replenishment of hematopoietic cells, growth, and remodeling of the bone during healthy and diseased state. Whole-bone clearing, light-sheet imaging with a custom-built microscope, and dedicated computational methods for counting fluorescently labeled cells. This trio of methods were used to visualize and quantify the total number of osteoprogenitors contained within a volume of mouse bone and map their 3D spatial distribution in response to a sclerostin antibody (Scl-Ab), a boneforming agent.\nnumber of osteoprogenitors contained within a volume of mouse bone and map their 3D spatial distribution\n\nVolumetric (3D) Distribution of vascular network in relation to Progenitor cells (Osteo, cementoblasts)\nDistribution of neurovascular network in PDL. Does mechanical response is only by cell to cell comunication or is there a neural response?"
   }
 ]
