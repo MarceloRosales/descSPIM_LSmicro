@@ -27,12 +27,12 @@ website:
             text: "3D Imaging"
           - href: supplementary/construction/index.qmd
             text: "Construction"
-          - href: supplementary/OpticalAligment/index.qmd
+          - href: supplementary/OpticalAligment/OpticalAligment.qmd
             text: "Optical Aligment"
 
     right: 
       - icon: github
-        href: ""
+        href: "https://marcelorosales.github.io/descSPIM_LSmicro/"
       - icon: rss
 
   sidebar: 
