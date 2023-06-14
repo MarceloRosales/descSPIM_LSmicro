@@ -131,5 +131,26 @@
     "title": "About",
     "section": "images:",
     "text": "images:\nEx1\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur placerat arcu, sed feugiat ex ultrices vitae.\n \nDuis sed fringilla purus. Mauris pellentesque ullamcorper justo id ullamcorper. Vestibulum finibus, mauris ac eleifend accumsan, tortor enim finibus nulla, sit amet rutrum ipsum nisl eu nunc.\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et posuere mi. Sed euismod nunc ut turpis fermentum bibendum.\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur placerat arcu, sed feugiat ex ultrices vitae.\nEx2\nIn rstudio visual, img floats right/left, but in render, text does not wrap around the image.\n\n\n\n\nDuis sed fringilla purus. Mauris pellentesque ullamcorper justo id ullamcorper. Vestibulum finibus, mauris ac eleifend accumsan, tortor enim finibus nulla, sit amet rutrum ipsum nisl eu nunc.\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et posuere mi. Sed euismod nunc ut turpis fermentum bibendum.\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur placerat arcu, sed feugiat ex ultrices vitae."
+  },
+  {
+    "objectID": "supplementary/Protocols/Cubic/index.html",
+    "href": "supplementary/Protocols/Cubic/index.html",
+    "title": "Cubic",
+    "section": "",
+    "text": "Cubic Home Page: Cubic"
+  },
+  {
+    "objectID": "supplementary/OpticalAligment/OpticalAligment.html",
+    "href": "supplementary/OpticalAligment/OpticalAligment.html",
+    "title": "Optical Aligment",
+    "section": "",
+    "text": "To do next before 3D imaging:\n\nLaser light beam check and collimation (Collimating lens)\nLaser light beam alignments (Collimating lens and Mirror 1, 2 and 3)\nCylindrical lens installation (Cylindrical lens 1 or 2 with x-stage)\nActuators and camera setup (Sample stage and detection optics)\nFluorescence signal check (Sample stage and detection optics)\nFollow-up alignments (Cylindrical lens and detection optics; if required)\n\n\nPDF"
+  },
+  {
+    "objectID": "supplementary/Protocols/Cubic/Cubic.html",
+    "href": "supplementary/Protocols/Cubic/Cubic.html",
+    "title": "Cubic",
+    "section": "",
+    "text": "Cubic Home Page: Cubic"
   }
 ]

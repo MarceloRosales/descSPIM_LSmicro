@@ -16,5 +16,14 @@
   },
   "supplementary/OpticalAligment/index.qmd": {
     "index.html": "b419de14"
+  },
+  "supplementary/Protocols/Cubic/index.qmd": {
+    "index.html": "2f5dee9f"
+  },
+  "supplementary/OpticalAligment/OpticalAligment.qmd": {
+    "OpticalAligment.html": "c2332bda"
+  },
+  "supplementary/Protocols/Cubic/Cubic.qmd": {
+    "Cubic.html": "c6e68442"
   }
 }

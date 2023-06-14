@@ -1,0 +1,12 @@
+---
+title: "Cubic"
+author: "Marcelo Rosales"
+date: "2023/05/30"
+format: 
+  html: 
+    code-fold: false
+    code-copy: true
+    code-overflow: wrap
+---
+
+Cubic Home Page: [Cubic](https://www.cubicstars.com/)

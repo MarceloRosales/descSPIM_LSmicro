@@ -15,20 +15,25 @@ website:
     collapse-below: lg
     
     left:
-      - href: index.qmd
-        text: "Home"
+      - text: "Home"
+        href: index.qmd
       - about.qmd
-      - href: Software.qmd
-        text: "Software"
+      - text: "Software"
+        href: Software.qmd
+        
+      - text: "Protocols"
+        menu: 
+          - text: "Cubic"
+            href: supplementary/Protocols/Cubic/Cubic.qmd
   
       - text: "Supplementary"
         menu: 
-          - href: supplementary/3dimaging/index.qmd
-            text: "3D Imaging"
-          - href: supplementary/construction/index.qmd
-            text: "Construction"
-          - href: supplementary/OpticalAligment/OpticalAligment.qmd
-            text: "Optical Aligment"
+          - text: "3D Imaging"
+            href: supplementary/3dimaging/index.qmd
+          - text: "Construction"
+            href: supplementary/construction/index.qmd
+          - text: "Optical Aligment"
+            href: supplementary/OpticalAligment/OpticalAligment.qmd
 
     right: 
       - icon: github
