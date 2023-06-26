@@ -17,10 +17,11 @@ website:
     left:
       - text: "Home"
         href: index.qmd
-      - about.qmd
+      - text: "About"
+        href: about.qmd
       - text: "Software"
         href: Software.qmd
-        
+  
       - text: "Protocols"
         menu: 
           - text: "Cubic"

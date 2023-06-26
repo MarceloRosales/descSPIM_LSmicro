@@ -17,15 +17,14 @@ website:
     left:
       - text: "Home"
         href: index.qmd
-      - about.qmd
+      - text: "About"
+        href: about.qmd
       - text: "Software"
         href: Software.qmd
-        
       - text: "Protocols"
         menu: 
           - text: "Cubic"
             href: supplementary/Protocols/Cubic/Cubic.qmd
-  
       - text: "Supplementary"
         menu: 
           - text: "3D Imaging"
