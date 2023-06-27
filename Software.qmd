@@ -42,9 +42,15 @@ How to use: Please follow the instructions in the code.
 
 ### Stitching with Bigstitcher
 
+Under review...
+
 ### 0-180 digree fusion by 3D slicer and Bigstitcher
 
+Under review...
+
 ### descSpim parts list
+
+(Change table display see Tables (how to display in R/Q Notes))
 
 ```{r}
 #| include: false
