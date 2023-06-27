@@ -7,6 +7,13 @@ format:
     code-fold: false
     code-copy: true
     code-overflow: wrap
+    tbl-colwidths: [40, 60]
+    fontsize: ""
+filters:
+  - lightbox
+lightbox:
+  match: auto
+bibliography: references.bib
 ---
 
 Documentation for descSPIPM Light sheet microscopy.
@@ -61,7 +68,7 @@ Pivoting
 
 Lattice light sheet microscopy...
 
-## DescSPIM and OpenSPIM 
+## DescSPIM and OpenSPIM
 
 DescSPIM and OpenSPIM are not the same organization.
 

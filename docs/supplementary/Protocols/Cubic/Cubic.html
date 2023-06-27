@@ -22,6 +22,25 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1.6em;
   vertical-align: middle;
 }
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
 </style>
 
 
@@ -159,7 +178,19 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#protocols" id="toc-protocols" class="nav-link active" data-scroll-target="#protocols">Protocols</a>
+  <ul class="collapse">
+  <li><a href="#mouse-whole-body-clearing-decalcification" id="toc-mouse-whole-body-clearing-decalcification" class="nav-link" data-scroll-target="#mouse-whole-body-clearing-decalcification">Mouse whole-Body Clearing (decalcification??)</a></li>
+  <li><a href="#decalcification-whole-mouse." id="toc-decalcification-whole-mouse." class="nav-link" data-scroll-target="#decalcification-whole-mouse.">Decalcification (Whole Mouse).</a></li>
+  <li><a href="#overview-of-the-advanced-cubic-pipeline-in-whole-organ-cell-profiling." id="toc-overview-of-the-advanced-cubic-pipeline-in-whole-organ-cell-profiling." class="nav-link" data-scroll-target="#overview-of-the-advanced-cubic-pipeline-in-whole-organ-cell-profiling.">Overview of the advanced CUBIC pipeline in whole-organ cell profiling.</a></li>
+  <li><a href="#procedures-for-tissue-clearing-and-gel-embedding." id="toc-procedures-for-tissue-clearing-and-gel-embedding." class="nav-link" data-scroll-target="#procedures-for-tissue-clearing-and-gel-embedding.">Procedures for tissue clearing and gel embedding.</a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -193,11 +224,116 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>Cubic Home Page: <a href="https://www.cubicstars.com/">Cubic</a></p>
+<p>Cubic Home Page: <a href="https://www.cubicstars.com/" target="_blank">Cubic</a></p>
+<ul>
+<li><a href="http://cubic-atlas.riken.jp/" data-target-_blank="">Cubic atlas</a>.</li>
+<li>Main article: <span class="citation" data-cites="matsumoto2019">Matsumoto et al. (<a href="#ref-matsumoto2019" role="doc-biblioref">2019</a>)</span>.</li>
+<li>Cubic Bioinformatics <a href="https://github.com/lsb-riken/CUBIC-informatics" target="_blank">repository</a>.</li>
+</ul>
+<section id="protocols" class="level2">
+<h2 class="anchored" data-anchor-id="protocols">Protocols</h2>
+<ul>
+<li><strong>Basic protocol:</strong> Clearing of whole mouse bodies as well as animal organs can be achieved by using two reagents in sequence:</li>
+</ul>
+<ol type="1">
+<li>CUBIC-L [T3740] for delipidation and either</li>
+<li>CUBIC-R+(N) [T3983] or CUBIC-R+(M) [T3741] for RI matching.</li>
+</ol>
+<p>The difference between CUBIC-R+(N) [T3983] and CUBIC-R+(M) [T3741]:</p>
+<p>CUBIC-R+(N) is inexpensive and easier to handle because it raises less precipitation. The fluorescence signal may decay, but the fluorescence signals of samples in CUBIC-R+(N) can be observed for several days after immersion.</p>
+<p>CUBIC-R+(M) is superior in retaining the fluorescence signal. However, at low temperatures such as in winter, it may precipitate. In that case, it can be resolved by placing the sample at 37°C for a few days. For these reasons, it is recommended to try CUBIC-R+(N) first and then use CUBIC-R+(M) if fluorescence signal cannot be found.</p>
+<ul>
+<li><p><strong>Optional protocol:</strong> The following products can easily clear tissues, such as bones or highly fatty tissues which were previously difficult to clear. CUBIC-B [T3780] for bone CUBIC-HL [T3781] for highly fatty tissues</p></li>
+<li><p><strong>For efficiently aiding with perfusion fixation for mouse perfusion:</strong> CUBIC-P [T3782]</p></li>
+<li><p><strong>Expansion protocol:</strong> The following products can clear tissues with expansion. (Swell/expand tissues for improved visibility.) CUBIC-X1 [T3866] for expansion tissues CUBIC-X2 [T3867] for RI matching with keeping the expanded size of tissues</p></li>
+<li><p><strong>For staining thick and large specimens uniformly</strong> CUBIC-HV™1 3D immunostaining kit [C3717] for 3D immunostaining CUBIC-HV™1 3D nuclear staining kit [C3709] for 3D nuclear staining</p></li>
+<li><p>Tissue expansion enables acquisition of images easy.</p></li>
+<li><p>Preserve the fluorescent protein signals except CUBIC-HL [T3781].</p></li>
+<li><p>Using light-sheet fluorescent microscopy (LSFM) or confocal laser-scanning microscopy (CLSM) enables the whole-organ / body imaging at a cellular resolution.</p></li>
+</ul>
+<section id="mouse-whole-body-clearing-decalcification" class="level3">
+<h3 class="anchored" data-anchor-id="mouse-whole-body-clearing-decalcification">Mouse whole-Body Clearing (decalcification??)</h3>
+<p><img src="images/mouse_wholebody_cleraing_img.png" class="img-fluid"></p>
+<p><strong>Application: Whole Adult Mouse</strong></p>
+<ul>
+<li><strong>Pre-Treatment: 200 mL 50% CUBIC-L at 37°C O/N</strong></li>
+<li><strong>Delipidation: 200 mL CUBIC-L at 37°C for 5 days</strong>
+<ul>
+<li>(CUBIC-L refreshed on days 1, 2, and 4)
+<ul>
+<li>Delipidation has reached its endpoint when:
+<ul>
+<li>Partial transparency is acheived</li>
+<li>CUBIC-L remains colorless after incubation with sample</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><strong>Pre-Treatment: 200 mL 50% CUBIC-R+(M) at RT O/N</strong></li>
+<li><strong>RI Matching: 200 mL CUBIC-R+(M) at RT O/N</strong>
+<ul>
+<li>Reagent Totals (for a 12 cm x 8 cm x 6 cm container):
+<ul>
+<li>CUBIC-L : 700 mL</li>
+<li>CUBIC-R+(M) : 300 mL Delipidation has reached its endpoint when:</li>
+</ul></li>
+</ul></li>
+</ul>
+<p>†Use a container that allows you to submerge your whole specimen.<br>
+†For nuclear staining, we recommend using a solution of 30 μg/mL propidium iodide (PI) and 1.5M NaCl in PBS.</p>
+<p>FA: formaldehyde, O/N: overnight, PFA: paraformaldehyde, RT: room temperature.</p>
+</section>
+<section id="decalcification-whole-mouse." class="level3">
+<h3 class="anchored" data-anchor-id="decalcification-whole-mouse.">Decalcification (Whole Mouse).</h3>
+<p><img src="images/Decalcification_wholeMouse_img.png" class="img-fluid"></p>
+</section>
+<section id="overview-of-the-advanced-cubic-pipeline-in-whole-organ-cell-profiling." class="level3">
+<h3 class="anchored" data-anchor-id="overview-of-the-advanced-cubic-pipeline-in-whole-organ-cell-profiling.">Overview of the advanced CUBIC pipeline in whole-organ cell profiling.</h3>
+<p><img src="images/Cubic_workflow-01.png" class="img-fluid"></p>
+<p>This pipeline comprises three major stages</p>
+<ol type="1">
+<li>Tissue clearing,</li>
+<li>Imaging and</li>
+<li>Image analysis</li>
+</ol>
+<p>Two kinds of clearing protocols:</p>
+<ol type="1">
+<li><strong>Rapid and highquality protocol</strong> using CUBIC-L and CUBIC-R+ (Step 4A), which takes at least 7 d for adult mouse brain, and</li>
+<li><strong>Tissue expansion protocol for high-resolution imaging</strong> using CUBIC-X (Step 4B), which takes up to 21 d for adult mouse brain.</li>
+</ol>
+<ul>
+<li>In addition, both protocols can include staining with an appropriate nuclei-staining dye, which takes 4 d.</li>
+<li>Rapid volumetric imaging can be performed with a customized LSFM with the MOVIE system (Steps 6–12).</li>
+<li>From the collected volumetric images, cells are detected by GPUs and CPUs and converted to point data.</li>
+<li>When analyzing the mouse brain, the result data are analyzed with CUBIC-Atlas.</li>
+</ul>
+</section>
+<section id="procedures-for-tissue-clearing-and-gel-embedding." class="level3">
+<h3 class="anchored" data-anchor-id="procedures-for-tissue-clearing-and-gel-embedding.">Procedures for tissue clearing and gel embedding.</h3>
+<p><img src="images/Cubic_workflow-02.png" class="img-fluid"></p>
+<ul>
+<li>a, Preparation of CUBIC-R+. This reagent can be easily dissolved by mild heating and stirring.</li>
+<li>b,c, An incubator with a shaker (b) and a hybridization incubator (c) that we use for steps requiring temperature control for the clearing procedure; inset shows tube containing brain.</li>
+<li>d, Preparation of 2% agarose–CUBIC solution. Agarose can be dissolved by repeated heating using a microwave and shaking.</li>
+<li>e, A water bath for the degassing step.</li>
+<li>f, 2% agarose–CUBIC solution after the degassing step.</li>
+<li>g, The sample is immersed in 2% agarose–CUBIC solution before gelation.</li>
+<li>h, A mold for gelation. It is designed for mouse brain.</li>
+<li>i, x–y view after gelation. Scale bar, 10 mm.</li>
+<li>j, y–z view after gelation. Scale bar, 5 mm. A margin of 1 mm or more is recommended on the top and bottom of the sample.</li>
+<li>k, Removing the sample gel from the mold.</li>
+<li>l, Fixation of the gel on the customized sample holder. All experiments followed the relevant governmental and institutional guidelines for animal experiments.</li>
+</ul>
 
 
 
-</main> <!-- /main -->
+</section>
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography">
+<div id="ref-matsumoto2019" class="csl-entry" role="doc-biblioentry">
+Matsumoto, Katsuhiko, Tomoki T. Mitani, Shuhei A. Horiguchi, Junichi Kaneshiro, Tatsuya C. Murakami, Tomoyuki Mano, Hiroshi Fujishima, et al. 2019. <span>“Advanced CUBIC Tissue Clearing for Whole-Organ Cell Profiling.”</span> <em>Nature Protocols</em> 14 (12): 3506–37. <a href="https://doi.org/10.1038/s41596-019-0240-9">https://doi.org/10.1038/s41596-019-0240-9</a>.
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
