@@ -20,5 +20,5 @@ jobs:
           server: ftp.descsimp.online # Subdomain name?
           username: ${{ secrets.FTP_USERNAME }} # Set in github
           password: ${{ secrets.FTP_PASSWORD }} # Set in github
-          local-dir: ./docs
+          local-dir: ./docs/
           remote-dir: /public_html/lsmicro/ # or subdomain folder
