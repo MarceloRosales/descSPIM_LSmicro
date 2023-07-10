@@ -21,4 +21,4 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }} # Set in github
           password: ${{ secrets.FTP_PASSWORD }} # Set in github
           local-dir: ./docs
-          remote-dir: /public_html/lsmicro # or subdomain folder
+          remote-dir: /public_html/lsmicro/ # or subdomain folder
