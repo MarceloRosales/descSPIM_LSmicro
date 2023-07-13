@@ -260,4 +260,4 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et posuere mi. 
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur placerat arcu, sed feugiat ex ultrices vitae.
 
-new　text　230711 1400
+new　text　230711 1400 new text 230713 1152
