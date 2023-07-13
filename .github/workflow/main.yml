@@ -12,13 +12,13 @@ jobs:
 
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: FTP Deploy
-        uses: SamKirkland/FTP-Deploy-Action@4.1.0
+        uses: SamKirkland/FTP-Deploy-Action@4.3.4
         with:
           server: ftp.descsimp.online # Subdomain name?
           username: ${{ secrets.FTP_USERNAME }} # Set in github  u567637261.lsmicro
           password: ${{ secrets.FTP_PASSWORD }} # Set in github  LSmicro23
           local-dir: ./docs/
-#          remote-dir: ./public_html/lsmicro/ # or subdomain folder
+          remote-dir: ./public_html/lsmicro/ # or subdomain folder

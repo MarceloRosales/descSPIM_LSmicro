@@ -43,7 +43,7 @@ CUBIC-R+(M) is superior in retaining the fluorescence signal. However, at low te
 
 -   Using light-sheet fluorescent microscopy (LSFM) or confocal laser-scanning microscopy (CLSM) enables the whole-organ / body imaging at a cellular resolution.
 
-### Mouse whole-Body Clearing (decalcification??) 
+### Mouse whole-Body Clearing (decalcification??)
 
 ![](images/mouse_wholebody_cleraing_img.png)
 
@@ -66,11 +66,11 @@ CUBIC-R+(M) is superior in retaining the fluorescence signal. However, at low te
 
 FA: formaldehyde, O/N: overnight, PFA: paraformaldehyde, RT: room temperature.
 
-### Decalcification (Whole Mouse). 
+### Decalcification (Whole Mouse).
 
 ![](images/Decalcification_wholeMouse_img.png)
 
-### Overview of the advanced CUBIC pipeline in whole-organ cell profiling. 
+### Overview of the advanced CUBIC pipeline in whole-organ cell profiling.
 
 ![](images/Cubic_workflow-01.png)
 
@@ -90,7 +90,7 @@ Two kinds of clearing protocols:
 -   From the collected volumetric images, cells are detected by GPUs and CPUs and converted to point data.
 -   When analyzing the mouse brain, the result data are analyzed with CUBIC-Atlas.
 
-### Procedures for tissue clearing and gel embedding. 
+### Procedures for tissue clearing and gel embedding.
 
 ![](images/Cubic_workflow-02.png)
 
