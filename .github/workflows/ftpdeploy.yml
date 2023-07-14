@@ -11,7 +11,7 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v3
       - name: FTP Deploy
-        uses: SamKirkland/FTP-Deploy-Action@4.3.4
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
           server: ftp.descsimp.online # Subdomain name?
           username: ${{ secrets.FTP_USERNAME }} # Set in github  
