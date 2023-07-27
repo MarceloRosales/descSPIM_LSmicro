@@ -1,0 +1,20 @@
+name: 🚀 FTP Deploy
+on:
+  push:
+    branches:
+      - main
+jobs:
+  web-deploy:
+    name: 🎉 Deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+      - name: FTP Deploy
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        with:
+          server: researchnotes.prostho2.com # Subdomain name. !!NOT: FTP Accouns » Active hostname.. See:  //Hosting » Dashboard » Domains » Subdomains » List of current subdomains
+          username: ${{ secrets.FTP_USERNAME }} # Set in github  
+          password: ${{ secrets.FTP_PASSWORD }} # Set in github  
+          local-dir: ./docs/
+          remote-dir: ./public_html/ResearchNotes/ # or subdomain folder

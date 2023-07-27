@@ -15,5 +15,5 @@ search: false
 Reports:
 
 ::: callout-warning
-seems to be a glitch in the repost page, if page does not reload or a 404 mesage is displayed, please reload the site from web browser address: `lsmicro.descsimp.online`
+seems to be a glitch in the reports page, if page does not reload or a 404 message is displayed, please reload the site from web browser address: `lsmicro.descsimp.online`
 :::
