@@ -55,6 +55,8 @@ website:
       contents:  
         - text: "Intro"
           href: supplementary/Protocols/Cubic/cubic.qmd  
+        - text: "Cubic"
+          href: supplementary/Protocols/Cubic/cubic02.qmd  
         - text: "Cubic HV"
           href: supplementary/Protocols/Cubic/cubic_hv.qmd   
         - text: ""

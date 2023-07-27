@@ -1,10 +1,10 @@
 ---
-title: "Gel embeding"
+title: "Cubic"
 author: "Marcelo Rosales"
 date: "2023/07/26"  
 date-meta: "2023/07/20"  
 date-modified: last-modified
-subtitle: Guide for gel embeding 
+subtitle: Comprehensive guide to using 
 page-layout: article
 anchor-sections: false
 search: false
@@ -16,11 +16,9 @@ format:
     code-fold: false
     code-copy: true
     code-overflow: wrap
-#bibliography: references.bib
+bibliography: references.bib
 ---
 
-Gel embedding procedure:
+Protocol for Imaging and Analysis of Mouse Tumor Models with CUBIC Tissue Clearin. [Article](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7757565/){target="_blank"}.
 
-ref: [riken.jp](http://cubic.riken.jp/)
-
-{{< video http://cubic.riken.jp/data/Gel_embedding_of_CUBIC-R-cleared_sample.mp4 >}}
+Compleate protocol for Mouse Tumor Models.

@@ -101,6 +101,8 @@ Now (2023/07/26) seems like there is a [new line up](https://www.cubicstars.com/
 
 ## Original Protocol
 
+![](images/cubic_hv_workflow01.png)
+
 ### CUBIC-HVTM1 
 
 3D staining protocol (version 2020.07) \[for a whole mouse brain\] ref: [link here](https://www.cubicstars.com/cubic-hv/pdf/CUBIC-HV(TM)1_gereral%20protocol_ver202007.pdf){target="_blank"}.
@@ -214,3 +216,17 @@ Wash (PBS)
 RI matching (CUBIC-R+)
 ↓ \~3 days
 Microscopic observation
+
+\-\--
+
+<https://www.cubicstars.com/cubic-lr/index.html>
+
+\-\--
+
+## Staining video
+
+3D nuclear staining and immunostaining steps by CUBIC-HV^TM^1 kits
+
+(for brain tissue)
+
+{{< video https://www.cubicstars.com/cubic-hv/video/HV_procedure_ver1.mp4 >}}
