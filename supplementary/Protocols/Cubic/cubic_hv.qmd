@@ -22,3 +22,195 @@ format:
 ## Cubic HV Staining
 
 Protocol
+
+from: [cubicstars.com](https://www.cubicstars.com/en/service/){target="_blank"}
+
+Introduction
+
+-   Stain bulky specimens uniformly. (Includes two nuclear stains and an antibody control)
+-   CUBIC-L \[T3740\] and CUBIC-R+(M) \[T3741\] (sold separately) required for upstream.
+
+## Product line ups
+
+### Original
+
+The [first](https://www.tcichemicals.com/assets/brochure-pdfs/Brochure_L3030_E.pdf){target="_blank"} cubic HV line up are:
+
+CUBIC-HV™1 3D immunostaining kit. 1kit \[C3708\]
+
+-   2 x Immunostaining Buffer (for 10 tests)
+-   1 x Immunostaining Washing Buffer (for 10 tests)
+-   10 x Immunostaining Additive (for 10 tests)
+-   Anti-NeuN Mouse IgG1 Antibody (1mg/mL) (for 2 tests)
+-   10 packs of 15mL tube
+
+CUBIC-HV™1 3D nuclear staining kit 1kit \[C3709\]
+
+-   1 x 3D Nuclear Staining Buffer (for 10 tests)
+-    100 x 3D Nuclear Staining Washing Buffer (for 10 tests)
+-    200 x DAPI 2HCl (1mg/mL in Water) \[for Cell Staining\] (for 10 tests)
+-    100 x Propidium Iodide (1mg/mL in Water) \[for Cell Staining\] (for 10 tests)
+-   10 packs of 5mL tube
+
+Reference E. A. Susaki, H. R. Ueda, et al., Nat. Commun. 2020, 11, 1982. https://doi.org/10.1038/s41467-020-15906-5
+
+### New releases
+
+Now (2023/07/26) seems like there is a [new line up](https://www.cubicstars.com/en/service/){target="_blank"}:
+
+-   **CUBIC-HV™2 3D tissue staining kit\[CSSR003\]**
+
+    **Kit contents (10tests/kit)**
+
+    :   -   Pre-wash buffer
+        -   1Staining buffer
+        -   Additive A\~F
+        -   Wrapping reagent
+        -   Wash Buffer
+        -   Supplement for Staining buffer
+
+    **Price**
+
+    :   (tax and shipping fee are not included) 990USD
+
+-   **CUBIC-HV™2 3D tissue staining kit (starter)\[CSSR004\]**
+
+    **Kit contents (10tests/kit)**
+
+    :   -   Pre-wash buffer
+        -   1Staining buffer
+        -   Additive A\~F
+        -   Wrapping reagent
+        -   Wash Buffer
+        -   Supplement for Staining buffer
+        -   Staining pot
+
+    **Price**
+
+    :   (tax and shipping fee are not included) 1580USD
+
+-   **3D tissue staining pot for CUBIC-HV™2\[CSSR005\]**
+
+    **Kit contents (10tests/kit)**
+
+    :   -   Staining pot
+
+    **Price**
+
+    :   (tax and shipping fee are not included) 590USD
+
+## Original Protocol
+
+### CUBIC-HVTM1 
+
+3D staining protocol (version 2020.07) \[for a whole mouse brain\] ref: [link here](https://www.cubicstars.com/cubic-hv/pdf/CUBIC-HV(TM)1_gereral%20protocol_ver202007.pdf){target="_blank"}.
+
+#### MATERIALS 
+
+Reagents in kit
+
+1.  CUBIC-HVTM1 3D nuclear staining buffer (1x) (Store at room temperature)
+2.  CUBIC-HVTM1 3D immunostaining buffer (2x) (Store at 4°C; Use within 6 months)
+3.  CUBIC-HVTM1 3D immunostaining wash buffer (1x) (Store at room temperature; cooled to 4°C when in use)
+4.  CUBIC-HVTM1 3D immunostaining additive (10x) (included in CUBIC-HVTM1 3D immunostaining kit; Store at room temperature, protected from light)
+
+Other reagents
+
+-   PBS (Tablet): TaKaRa #T9181
+-   HEPES: Tokyo Chemical Industry #H0396
+-   Sodium azide (NaN3): nacalai tesque #31208-82
+-   Paraformaldehyde: nacalai tesque #02890-45
+-   Formalin solution: Tokyo Chemical Industry #F0622
+-   Heparin: FUJIFILM Wako #081-00136
+-   CUBIC-L: Tokyo Chemical Industry #T3740
+-   CUBIC-R+: Tokyo Chemical Industry #T3741
+
+Reagents required for the optional enzyme reaction
+
+-   CAPSO: Sigma #C2278
+-   Sodium chloride (NaCl): nacalai tesque #31319-45
+-   Hyaluronidase: Sigma #H4272 or Sigma #H3884
+-   BSA: Sigma #A7906
+-   Sodium carbonate (Na2CO3): nacalai tesque #31310-35
+-   Sodium hydrogen carbonate (NaHCO3): nacalai tesque #31212-25
+-   TritonX-100: nacalai tesque #12967-45
+-   MeOH: nacalai tesque #21915-93
+
+Nuclear staining reagents
+
+-   DAPI (included in CUBIC-HVTM1 3D nuclear staining kit)
+-   BOBO™-1 Iodide: ThermoFisher Scientific B358
+-   SYTOX™ Green Nucleic Acid Stain: ThermoFisher Scientific S7020
+-   Propidium Iodide (PI) (included in CUBIC-HVTM1 3D nuclear staining kit)
+-   RedDot™2 Far-Red Nuclear Stain: Biotium #40061
+
+#### Antibodies 
+
+Primary antibody
+According to the user\'s purpose\*
+\*CUBICStars provides technical notes for a validated antibody. See our website ( <https://www.cubicstars.com/cubic-hv/index.html> ) or email at
+for request)
+
+::: callout-note
+The use of antibody products with a concentration of 250 µg/mL or higher isrecommended.
+:::
+
+Secondary antibody
+FabuLight Fc specific Fab fragment (Jackson Immunolab)
+<https://www.jacksonimmuno.com/catalog/31#target:15>
+
+::: callout-important
+Alexa FluorTM 488 is not compatible with CUBIC-R+.
+
+Cy3, Alexa FluorTM 594 and 647 havebeen validated.
+:::
+
+Containers to be used
+
+-   Protein LoBind 500 µL tube: Eppendorf #022431064
+-   5 mL tube (included in CUBIC-HVTM1 3D nuclear staining kit)
+-   15 mL standing tube (included in CUBIC-HVTM1 3D immunostaining kit)
+-   30 mL tube: SARSTEDT #60.544
+-   50 mL tube: Falcon #352070
+
+Process outline
+
+Perfusion fixation and dissection of the mouse brain
+↓
+
+Post-fix
+↓ \~24 h
+Wash (PBS)
+↓ 2 h x3
+Delipidation (CUBIC-L)
+↓ 3\~7 days
+Wash (PBS)
+↓ 2 h x3
+Nuclear staining (HVTM1 3D nuclear staining buffer)
+↓ 3\~5 days
+Wash (3D nuclear staining wash buffer)
+↓ 2 h x3 （If antibody staining is not required, skip the following steps and proceed to RI matching）
+============================= Optional process ================================
+Exchange with the hyaluronidase reaction buffer
+↓ 2 h \~
+Enzyme reaction (Hyaluronidase)
+↓ 24 h
+Wash (Hyaluronidase wash buffer)
+↓ 2 h x3
+===========================================================================
+Primary antibody + secondary antibody reaction / Replacement with HVTM1 3D immunostaining
+buffer
+↓ 1.5 h
+Immunostaining \[HVTM1 3D immunostaining buffer with HVTM1 additive (if required)\]
+↓ 1 week\~ (up to the selected primary Ab)
+Reaction at 4°C
+↓ 1 day
+Wash (HVTM1 3D immunostaining wash buffer)
+↓ 2 h x3
+Post-fix
+↓ 1 day
+Wash (PBS)
+↓ 2 h
+RI matching (CUBIC-R+)
+↓ \~3 days
+Microscopic observation
