@@ -31,5 +31,17 @@
   },
   "blog.qmd": {
     "blog.html": "cdab74f6"
+  },
+  "supplementary/Protocols/Cubic/cubic.qmd": {
+    "cubic.html": "5c5ac8a2"
+  },
+  "supplementary/Protocols/cubic_hv/cubic_hv.qmd": {
+    "cubic_hv.html": "00166a2a"
+  },
+  "supplementary/Protocols/gel/gel.qmd": {
+    "gel.html": "49cb0c14"
+  },
+  "supplementary/Protocols/Cubic/cubic_hv.qmd": {
+    "cubic_hv.html": "1e58da03"
   }
 }

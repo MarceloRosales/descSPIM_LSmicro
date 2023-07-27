@@ -24,9 +24,11 @@ website:
   
       - text: "Protocols"
         menu: 
-          - href: supplementary/Protocols/Cubic/Cubic.qmd
+          - href: supplementary/Protocols/Cubic/cubic.qmd
             text: "Cubic"
-  
+          - href: supplementary/Protocols/gel/gel.qmd
+            text: "Gel embeding"
+
       - text: "Supplementary"
         menu: 
           - href: supplementary/3dimaging/index.qmd
@@ -44,8 +46,32 @@ website:
         href: "https://marcelorosales.github.io/descSPIM_LSmicro/"
       - icon: rss
 
-  sidebar: 
-    - id: ""
+  sidebar:
+    - id: cubic 
+      title: "Cubic Protocols"
+      style: "floating"
+      collapse-level: 3
+      align: left
+      contents:  
+        - text: "Intro"
+          href: supplementary/Protocols/Cubic/cubic.qmd  
+        - text: "Cubic HV"
+          href: supplementary/Protocols/Cubic/cubic_hv.qmd   
+        - text: ""
+          href: ""
+
+    - id: gel
+      title: "Cubic Protocols"
+      style: "floating"
+      collapse-level: 3
+      align: left
+      contents:  
+        - text: "Intro"
+          href: supplementary/Protocols/gel/gel.qmd
+        - text: ""
+          href: ""  
+        - text: ""
+          href: ""
 
 format:
   html:

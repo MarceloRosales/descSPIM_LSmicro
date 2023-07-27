@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Marcelo Rosales">
-<meta name="dcterms.date" content="2023-05-30">
+<meta name="dcterms.date" content="2023/07/20">
 
 <title>descSPIM_LSmicro - Cubic</title>
 <style>
@@ -54,7 +54,6 @@ div.csl-indent {
 <script src="../../../site_libs/quarto-html/quarto.js"></script>
 <script src="../../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
 <link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
@@ -85,7 +84,7 @@ div.csl-indent {
 
 <link rel="stylesheet" href="../../../styles.css">
 <meta property="og:title" content="descSPIM_LSmicro - Cubic">
-<meta property="og:description" content="Cubic Home Page: Cubic">
+<meta property="og:description" content="Comprehensive guide to using">
 <meta property="og:site-name" content="descSPIM_LSmicro">
 </head>
 
@@ -123,8 +122,12 @@ div.csl-indent {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-protocols">    
         <li>
-    <a class="dropdown-item" href="../../../supplementary/Protocols/Cubic/Cubic.html">
+    <a class="dropdown-item" href="../../../supplementary/Protocols/Cubic/cubic.html">
  <span class="dropdown-text">Cubic</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../supplementary/Protocols/gel/gel.html">
+ <span class="dropdown-text">Gel embeding</span></a>
   </li>  
     </ul>
   </li>
@@ -179,6 +182,20 @@ div.csl-indent {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../supplementary/Protocols/Cubic/cubic.html" class="sidebar-item-text sidebar-link active">Intro</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../supplementary/Protocols/Cubic/cubic_hv.html" class="sidebar-item-text sidebar-link">Cubic HV</a>
+  </div>
+</li>
+    </ul>
+    </div>
 </nav>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
@@ -188,10 +205,10 @@ div.csl-indent {
   <ul>
   <li><a href="#protocols" id="toc-protocols" class="nav-link active" data-scroll-target="#protocols">Protocols</a>
   <ul class="collapse">
-  <li><a href="#mouse-whole-body-clearing-decalcification" id="toc-mouse-whole-body-clearing-decalcification" class="nav-link" data-scroll-target="#mouse-whole-body-clearing-decalcification">Mouse whole-Body Clearing (decalcification??)</a></li>
-  <li><a href="#decalcification-whole-mouse." id="toc-decalcification-whole-mouse." class="nav-link" data-scroll-target="#decalcification-whole-mouse.">Decalcification (Whole Mouse).</a></li>
-  <li><a href="#overview-of-the-advanced-cubic-pipeline-in-whole-organ-cell-profiling." id="toc-overview-of-the-advanced-cubic-pipeline-in-whole-organ-cell-profiling." class="nav-link" data-scroll-target="#overview-of-the-advanced-cubic-pipeline-in-whole-organ-cell-profiling.">Overview of the advanced CUBIC pipeline in whole-organ cell profiling.</a></li>
-  <li><a href="#procedures-for-tissue-clearing-and-gel-embedding." id="toc-procedures-for-tissue-clearing-and-gel-embedding." class="nav-link" data-scroll-target="#procedures-for-tissue-clearing-and-gel-embedding.">Procedures for tissue clearing and gel embedding.</a></li>
+  <li><a href="#whole-mouse-clearing" id="toc-whole-mouse-clearing" class="nav-link" data-scroll-target="#whole-mouse-clearing">Whole-mouse Clearing</a></li>
+  <li><a href="#decalcification." id="toc-decalcification." class="nav-link" data-scroll-target="#decalcification.">Decalcification.</a></li>
+  <li><a href="#overview-of-procedures" id="toc-overview-of-procedures" class="nav-link" data-scroll-target="#overview-of-procedures">Overview of procedures</a></li>
+  <li><a href="#gel-embedding." id="toc-gel-embedding." class="nav-link" data-scroll-target="#gel-embedding.">gel embedding.</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -202,6 +219,7 @@ div.csl-indent {
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title d-none d-lg-block">Cubic</h1>
+<p class="subtitle lead">Comprehensive guide to using</p>
 </div>
 
 
@@ -218,10 +236,16 @@ div.csl-indent {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">May 30, 2023</p>
+      <p class="date">July 26, 2023</p>
     </div>
   </div>
   
+    <div>
+    <div class="quarto-title-meta-heading">Modified</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date-modified">July 28, 2023</p>
+    </div>
+  </div>
     
   </div>
   
@@ -235,7 +259,7 @@ div.csl-indent {
 <li>Cubic Bioinformatics <a href="https://github.com/lsb-riken/CUBIC-informatics" target="_blank">repository</a>.</li>
 </ul>
 <section id="protocols" class="level2">
-<h2 class="anchored" data-anchor-id="protocols">Protocols</h2>
+<h2 data-anchor-id="protocols">Protocols</h2>
 <ul>
 <li><strong>Basic protocol:</strong> Clearing of whole mouse bodies as well as animal organs can be achieved by using two reagents in sequence:</li>
 </ul>
@@ -255,8 +279,9 @@ div.csl-indent {
 <li><p>Preserve the fluorescent protein signals except CUBIC-HL [T3781].</p></li>
 <li><p>Using light-sheet fluorescent microscopy (LSFM) or confocal laser-scanning microscopy (CLSM) enables the whole-organ / body imaging at a cellular resolution.</p></li>
 </ul>
-<section id="mouse-whole-body-clearing-decalcification" class="level3">
-<h3 class="anchored" data-anchor-id="mouse-whole-body-clearing-decalcification">Mouse whole-Body Clearing (decalcification??)</h3>
+<section id="whole-mouse-clearing" class="level3">
+<h3 data-anchor-id="whole-mouse-clearing">Whole-mouse Clearing</h3>
+<p>Mouse whole-Body Clearing (without decalcification process)</p>
 <p><img src="images/mouse_wholebody_cleraing_img.png" class="img-fluid"></p>
 <p><strong>Application: Whole Adult Mouse</strong></p>
 <ul>
@@ -286,12 +311,14 @@ div.csl-indent {
 †For nuclear staining, we recommend using a solution of 30 μg/mL propidium iodide (PI) and 1.5M NaCl in PBS.</p>
 <p>FA: formaldehyde, O/N: overnight, PFA: paraformaldehyde, RT: room temperature.</p>
 </section>
-<section id="decalcification-whole-mouse." class="level3">
-<h3 class="anchored" data-anchor-id="decalcification-whole-mouse.">Decalcification (Whole Mouse).</h3>
+<section id="decalcification." class="level3">
+<h3 data-anchor-id="decalcification.">Decalcification.</h3>
+<p>Decalcification (Whole Mouse).</p>
 <p><img src="images/Decalcification_wholeMouse_img.png" class="img-fluid"></p>
 </section>
-<section id="overview-of-the-advanced-cubic-pipeline-in-whole-organ-cell-profiling." class="level3">
-<h3 class="anchored" data-anchor-id="overview-of-the-advanced-cubic-pipeline-in-whole-organ-cell-profiling.">Overview of the advanced CUBIC pipeline in whole-organ cell profiling.</h3>
+<section id="overview-of-procedures" class="level3">
+<h3 data-anchor-id="overview-of-procedures">Overview of procedures</h3>
+<p>Overview of the advanced CUBIC pipeline in whole-organ cell profiling.</p>
 <p><img src="images/Cubic_workflow-01.png" class="img-fluid"></p>
 <p>This pipeline comprises three major stages</p>
 <ol type="1">
@@ -311,8 +338,9 @@ div.csl-indent {
 <li>When analyzing the mouse brain, the result data are analyzed with CUBIC-Atlas.</li>
 </ul>
 </section>
-<section id="procedures-for-tissue-clearing-and-gel-embedding." class="level3">
-<h3 class="anchored" data-anchor-id="procedures-for-tissue-clearing-and-gel-embedding.">Procedures for tissue clearing and gel embedding.</h3>
+<section id="gel-embedding." class="level3">
+<h3 data-anchor-id="gel-embedding.">gel embedding.</h3>
+<p>Procedures for tissue clearing and gel embedding.</p>
 <p><img src="images/Cubic_workflow-02.png" class="img-fluid"></p>
 <ul>
 <li>a, Preparation of CUBIC-R+. This reagent can be easily dissolved by mild heating and stirring.</li>
@@ -473,13 +501,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   } else {
     toggleColorMode(false);
   }
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
   const clipboard = new window.ClipboardJS('.code-copy-button', {
     target: function(trigger) {
       return trigger.previousElementSibling;

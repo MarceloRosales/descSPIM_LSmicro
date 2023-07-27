@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Marcelo Rosales">
-<meta name="dcterms.date" content="2023-05-30">
+<meta name="dcterms.date" content="2023-06-30">
 
 <title>descSPIM_LSmicro</title>
 <style>
@@ -69,11 +69,11 @@ ul.task-list li input[type="checkbox"] {
 
 <link rel="stylesheet" href="styles.css">
 <meta property="og:title" content="descSPIM_LSmicro">
-<meta property="og:description" content="Documentation for descSPIPM Light sheet microscopy.">
+<meta property="og:description" content="Documentation for descSPIPM Light sheet microscopy, website at http://lsmicro.descsimp.online/">
 <meta property="og:site-name" content="descSPIM_LSmicro">
 </head>
 
-<body class="nav-sidebar floating nav-fixed">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -107,8 +107,12 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-protocols">    
         <li>
-    <a class="dropdown-item" href="./supplementary/Protocols/Cubic/Cubic.html">
+    <a class="dropdown-item" href="./supplementary/Protocols/Cubic/cubic.html">
  <span class="dropdown-text">Cubic</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./supplementary/Protocols/gel/gel.html">
+ <span class="dropdown-text">Gel embeding</span></a>
   </li>  
     </ul>
   </li>
@@ -132,7 +136,7 @@ ul.task-list li input[type="checkbox"] {
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="./blog.qmd">
+    <a class="nav-link" href="./blog.html">
  <span class="menu-text">Reports</span></a>
   </li>  
 </ul>
@@ -150,31 +154,24 @@ ul.task-list li input[type="checkbox"] {
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
-  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-    <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">descSPIM_LSmicro</h1>
-      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
-        <i class="bi bi-chevron-right"></i>
-      </button>
-    </div>
-  </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
-</nav>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#what-is-a-light-sheet-microscope" id="toc-what-is-a-light-sheet-microscope" class="nav-link active" data-scroll-target="#what-is-a-light-sheet-microscope"><strong>What is a light sheet microscope?</strong></a>
+  <li><a href="#intro" id="toc-intro" class="nav-link active" data-scroll-target="#intro">Intro:</a>
+  <ul class="collapse">
+  <li><a href="#what-is-a-light-sheet-microscope" id="toc-what-is-a-light-sheet-microscope" class="nav-link" data-scroll-target="#what-is-a-light-sheet-microscope"><strong>What is a light sheet microscope?</strong></a>
   <ul class="collapse">
   <li><a href="#sample" id="toc-sample" class="nav-link" data-scroll-target="#sample">Sample</a></li>
   <li><a href="#limitations" id="toc-limitations" class="nav-link" data-scroll-target="#limitations">Limitations</a></li>
   <li><a href="#improvements" id="toc-improvements" class="nav-link" data-scroll-target="#improvements">Improvements</a></li>
+  </ul></li>
   <li><a href="#descspim-and-openspim" id="toc-descspim-and-openspim" class="nav-link" data-scroll-target="#descspim-and-openspim">DescSPIM and OpenSPIM</a>
   <ul class="collapse">
   <li><a href="#descspim" id="toc-descspim" class="nav-link" data-scroll-target="#descspim">DescSPIM</a></li>
@@ -189,7 +186,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">descSPIM_LSmicro</h1>
+<h1 class="title">descSPIM_LSmicro</h1>
 </div>
 
 
@@ -206,7 +203,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">May 30, 2023</p>
+      <p class="date">June 30, 2023</p>
     </div>
   </div>
   
@@ -216,9 +213,11 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>Documentation for descSPIPM Light sheet microscopy.</p>
-<section id="what-is-a-light-sheet-microscope" class="level1">
-<h1><strong>What is a light sheet microscope?</strong></h1>
+<p>Documentation for descSPIPM Light sheet microscopy, website at <a href="http://lsmicro.descsimp.online/" class="uri">http://lsmicro.descsimp.online/</a></p>
+<section id="intro" class="level1">
+<h1>Intro:</h1>
+<section id="what-is-a-light-sheet-microscope" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-a-light-sheet-microscope"><strong>What is a light sheet microscope?</strong></h2>
 <p>A light sheet microscope, also known as a <strong>selective plane illumination microscope</strong> (SPIM), is an advanced imaging tool used in biological research. It is designed to minimize phototoxicity and photobleaching while providing high-resolution three-dimensional imaging of living specimens.</p>
 <p>In a light sheet microscope, a thin sheet of laser light is used to illuminate the sample from the side, perpendicular to the direction of detection. This method reduces the exposure of the specimen to the intense illumination, minimizing damage and allowing long-term imaging of delicate or sensitive samples.</p>
 <div class="quarto-figure quarto-figure-center">
@@ -295,6 +294,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <p>Lattice light sheet microscopy…</p>
 </section>
+</section>
 <section id="descspim-and-openspim" class="level2">
 <h2 class="anchored" data-anchor-id="descspim-and-openspim">DescSPIM and OpenSPIM</h2>
 <p>DescSPIM and OpenSPIM are not the same organization.</p>
@@ -308,8 +308,6 @@ ul.task-list li input[type="checkbox"] {
 <p>the web page and info are available at <a href="https://openspim.org/">OpenSPIM.org</a>.</p>
 <p>While both DescSPIM and OpenSPIM share a common goal of advancing open-source SPIM technology, they are distinct projects with separate teams and communities involved in their development.</p>
 <p>Light sheet microscopy offers several advantages over traditional microscopy techniques. It provides fast acquisition rates, high resolution, and the ability to capture three-dimensional images over long periods without significant photodamage. This makes it particularly suitable for studying dynamic processes in living organisms, such as developmental biology, neuroscience, and cell biology.</p>
-<p>jfk</p>
-<p>more text</p>
 
 
 </section>
@@ -566,7 +564,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
-<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","loop":true,"descPosition":"bottom","selector":".lightbox","openEffect":"zoom"});</script>
+<script>var lightboxQuarto = GLightbox({"selector":".lightbox","openEffect":"zoom","closeEffect":"zoom","loop":true,"descPosition":"bottom"});</script>
 
 
 

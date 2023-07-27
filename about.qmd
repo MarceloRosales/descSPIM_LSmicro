@@ -232,7 +232,9 @@ Since there are not many articles using light-sheet microscope, there is room fo
 
 -   [CUBIC resource website](http://cubic.riken.jp)
 
-## images:
+\-\-\-\-\-\-\-\--
+
+## images and text tests:
 
 Ex1
 
@@ -259,19 +261,3 @@ Duis sed fringilla purus. Mauris pellentesque ullamcorper justo id ullamcorper. 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et posuere mi. Sed euismod nunc ut turpis fermentum bibendum.
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur placerat arcu, sed feugiat ex ultrices vitae.
-
-new　text　230711 1400
-
-new text 230713 1152
-
-new text 230713 1207
-
-new text 230713 1608
-
-new text 230714
-
-new text 230714 1212
-
-new text 230714 1250
-
-Is this a success?!

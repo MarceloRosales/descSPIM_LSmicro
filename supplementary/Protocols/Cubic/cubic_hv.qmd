@@ -1,0 +1,24 @@
+---
+title: "Cubic HV"
+author: "Marcelo Rosales"
+date: "2023/07/26"  
+date-meta: "2023/07/20"  
+date-modified: last-modified
+subtitle: Comprehensive guide to using 
+page-layout: article
+anchor-sections: true
+search: true
+#  template: ../../ejs/links.ejs
+#  contents: guide.yml
+#image: /images/hero_right.png
+format: 
+  html: 
+    code-fold: false
+    code-copy: true
+    code-overflow: wrap
+#bibliography: references.bib
+---
+
+## Cubic HV Staining
+
+Protocol

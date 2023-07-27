@@ -1,12 +1,14 @@
 ---
 title: "Cubic Protocol"
-description: "Quick start for quarto"
+description: "Cubic Protocols"
 author: "Marcelo Rosales"
-date: date-created
+date: "2023/07/26"  # Publication date, also can use: today
+date-meta: "2023/07/20"  # Date of document creation or last modification. It is not shown in render
 date-modified: last-modified
+anchor-sections: true
 categories:
-  - Website
-  - Blog
+  - Cubic
+  - Protocol
   - Posts
 filters:
   - lightbox # requires install of extension inside the project See "Complete Lightbox Example" post $quarto add quarto-ext/lightbox

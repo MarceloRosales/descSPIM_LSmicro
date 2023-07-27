@@ -1,0 +1,20 @@
+---
+title: "Gel embeding"
+author: "Marcelo Rosales"
+date: "2023/07/26"  
+date-meta: "2023/07/20"  
+date-modified: last-modified
+subtitle: Guide for gel embeding 
+page-layout: article
+anchor-sections: false
+search: false
+#  template: ../../ejs/links.ejs
+#  contents: guide.yml
+#image: /images/hero_right.png
+format: 
+  html: 
+    code-fold: false
+    code-copy: true
+    code-overflow: wrap
+#bibliography: references.bib
+---

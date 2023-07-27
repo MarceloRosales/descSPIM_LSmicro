@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "descSPIM_LSmicro",
     "section": "",
-    "text": "Documentation for descSPIPM Light sheet microscopy."
+    "text": "Documentation for descSPIPM Light sheet microscopy, website at http://lsmicro.descsimp.online/"
   },
   {
     "objectID": "about.html",
@@ -25,7 +25,7 @@
     "href": "index.html#descspim-and-openspim",
     "title": "descSPIM_LSmicro",
     "section": "DescSPIM and OpenSPIM",
-    "text": "DescSPIM and OpenSPIM\nDescSPIM and OpenSPIM are not the same organization.\n\nDescSPIM\nDescSPIM (Developing a Spinning-Disk Confocal Selective-Plane Illumination Microscope) is a project focused on developing an open-source selective-plane illumination microscopy (SPIM) system. It aims to create a modular and customizable SPIM platform that can be accessible to researchers and scientists for their imaging needs. The DescSPIM project focuses on hardware design, software development, and documentation related to SPIM systems.\n\n\nOpenSPIM\nOpenSPIM is a separate initiative that also aims to develop open-source SPIM systems. OpenSPIM is a collaborative effort by multiple researchers and institutions with the goal of providing an accessible and affordable SPIM solution. They focus on designing, building, and sharing hardware and software resources for SPIM.\nthe web page and info are available at OpenSPIM.org.\nWhile both DescSPIM and OpenSPIM share a common goal of advancing open-source SPIM technology, they are distinct projects with separate teams and communities involved in their development.\nLight sheet microscopy offers several advantages over traditional microscopy techniques. It provides fast acquisition rates, high resolution, and the ability to capture three-dimensional images over long periods without significant photodamage. This makes it particularly suitable for studying dynamic processes in living organisms, such as developmental biology, neuroscience, and cell biology.\njfk\nmore text"
+    "text": "DescSPIM and OpenSPIM\nDescSPIM and OpenSPIM are not the same organization.\n\nDescSPIM\nDescSPIM (Developing a Spinning-Disk Confocal Selective-Plane Illumination Microscope) is a project focused on developing an open-source selective-plane illumination microscopy (SPIM) system. It aims to create a modular and customizable SPIM platform that can be accessible to researchers and scientists for their imaging needs. The DescSPIM project focuses on hardware design, software development, and documentation related to SPIM systems.\n\n\nOpenSPIM\nOpenSPIM is a separate initiative that also aims to develop open-source SPIM systems. OpenSPIM is a collaborative effort by multiple researchers and institutions with the goal of providing an accessible and affordable SPIM solution. They focus on designing, building, and sharing hardware and software resources for SPIM.\nthe web page and info are available at OpenSPIM.org.\nWhile both DescSPIM and OpenSPIM share a common goal of advancing open-source SPIM technology, they are distinct projects with separate teams and communities involved in their development.\nLight sheet microscopy offers several advantages over traditional microscopy techniques. It provides fast acquisition rates, high resolution, and the ability to capture three-dimensional images over long periods without significant photodamage. This makes it particularly suitable for studying dynamic processes in living organisms, such as developmental biology, neuroscience, and cell biology."
   },
   {
     "objectID": "about.html#guide-to-install",
@@ -46,7 +46,7 @@
     "href": "about.html#references",
     "title": "About",
     "section": "References",
-    "text": "References\n\nOtomo et al. descSPIM: Affordable and Easy-to-Build Light-Sheet Microscopy for Clearing Technique Users. bioRxiv (2023)\nSusaki et al. Versatile whole-organ/body staining and imaging based on electrolyte-gel properties of biological tissues. Nat Commun 11, 1982 (2020)\nMatsumoto et al. Advanced CUBIC tissue clearing for whole-organ cell profiling. Nat Protoc 14, 3506–3537 (2019)\nCUBIC resource website"
+    "text": "References\n\nOtomo et al. descSPIM: Affordable and Easy-to-Build Light-Sheet Microscopy for Clearing Technique Users. bioRxiv (2023)\nSusaki et al. Versatile whole-organ/body staining and imaging based on electrolyte-gel properties of biological tissues. Nat Commun 11, 1982 (2020)\nMatsumoto et al. Advanced CUBIC tissue clearing for whole-organ cell profiling. Nat Protoc 14, 3506–3537 (2019)\nCUBIC resource website\n\n---------"
   },
   {
     "objectID": "Software.html",
@@ -133,13 +133,6 @@
     "text": "images:\nEx1\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur placerat arcu, sed feugiat ex ultrices vitae.\n \nDuis sed fringilla purus. Mauris pellentesque ullamcorper justo id ullamcorper. Vestibulum finibus, mauris ac eleifend accumsan, tortor enim finibus nulla, sit amet rutrum ipsum nisl eu nunc.\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et posuere mi. Sed euismod nunc ut turpis fermentum bibendum.\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur placerat arcu, sed feugiat ex ultrices vitae.\nEx2\nIn rstudio visual, img floats right/left, but in render, text does not wrap around the image.\n\n\n\n\nDuis sed fringilla purus. Mauris pellentesque ullamcorper justo id ullamcorper. Vestibulum finibus, mauris ac eleifend accumsan, tortor enim finibus nulla, sit amet rutrum ipsum nisl eu nunc.\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et posuere mi. Sed euismod nunc ut turpis fermentum bibendum.\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur placerat arcu, sed feugiat ex ultrices vitae.\nnew　text　230711 1400\nnew text 230713 1152\nnew text 230713 1207\nnew text 230713 1608\nnew text 230714\nnew text 230714 1212\nnew text 230714 1250\nIs this a success?!"
   },
   {
-    "objectID": "supplementary/Protocols/Cubic/index.html",
-    "href": "supplementary/Protocols/Cubic/index.html",
-    "title": "Cubic",
-    "section": "",
-    "text": "Cubic Home Page: Cubic"
-  },
-  {
     "objectID": "supplementary/OpticalAligment/OpticalAligment.html",
     "href": "supplementary/OpticalAligment/OpticalAligment.html",
     "title": "Optical Aligment",
@@ -147,24 +140,31 @@
     "text": "To do next before 3D imaging:\n\nLaser light beam check and collimation (Collimating lens)\nLaser light beam alignments (Collimating lens and Mirror 1, 2 and 3)\nCylindrical lens installation (Cylindrical lens 1 or 2 with x-stage)\nActuators and camera setup (Sample stage and detection optics)\nFluorescence signal check (Sample stage and detection optics)\nFollow-up alignments (Cylindrical lens and detection optics; if required)\n\n\nPDF"
   },
   {
-    "objectID": "supplementary/Protocols/Cubic/Cubic.html",
-    "href": "supplementary/Protocols/Cubic/Cubic.html",
-    "title": "Cubic",
-    "section": "",
-    "text": "Cubic Home Page: Cubic"
-  },
-  {
-    "objectID": "supplementary/Protocols/Cubic/Cubic.html#protocols",
-    "href": "supplementary/Protocols/Cubic/Cubic.html#protocols",
-    "title": "Cubic",
-    "section": "Protocols",
-    "text": "Protocols\n\nBasic protocol: Clearing of whole mouse bodies as well as animal organs can be achieved by using two reagents in sequence:\n\n\nCUBIC-L [T3740] for delipidation and either\nCUBIC-R+(N) [T3983] or CUBIC-R+(M) [T3741] for RI matching.\n\nThe difference between CUBIC-R+(N) [T3983] and CUBIC-R+(M) [T3741]:\nCUBIC-R+(N) is inexpensive and easier to handle because it raises less precipitation. The fluorescence signal may decay, but the fluorescence signals of samples in CUBIC-R+(N) can be observed for several days after immersion.\nCUBIC-R+(M) is superior in retaining the fluorescence signal. However, at low temperatures such as in winter, it may precipitate. In that case, it can be resolved by placing the sample at 37°C for a few days. For these reasons, it is recommended to try CUBIC-R+(N) first and then use CUBIC-R+(M) if fluorescence signal cannot be found.\n\nOptional protocol: The following products can easily clear tissues, such as bones or highly fatty tissues which were previously difficult to clear. CUBIC-B [T3780] for bone CUBIC-HL [T3781] for highly fatty tissues\nFor efficiently aiding with perfusion fixation for mouse perfusion: CUBIC-P [T3782]\nExpansion protocol: The following products can clear tissues with expansion. (Swell/expand tissues for improved visibility.) CUBIC-X1 [T3866] for expansion tissues CUBIC-X2 [T3867] for RI matching with keeping the expanded size of tissues\nFor staining thick and large specimens uniformly CUBIC-HV™1 3D immunostaining kit [C3717] for 3D immunostaining CUBIC-HV™1 3D nuclear staining kit [C3709] for 3D nuclear staining\nTissue expansion enables acquisition of images easy.\nPreserve the fluorescent protein signals except CUBIC-HL [T3781].\nUsing light-sheet fluorescent microscopy (LSFM) or confocal laser-scanning microscopy (CLSM) enables the whole-organ / body imaging at a cellular resolution.\n\n\nMouse whole-Body Clearing (decalcification??)\n\nApplication: Whole Adult Mouse\n\nPre-Treatment: 200 mL 50% CUBIC-L at 37°C O/N\nDelipidation: 200 mL CUBIC-L at 37°C for 5 days\n\n(CUBIC-L refreshed on days 1, 2, and 4)\n\nDelipidation has reached its endpoint when:\n\nPartial transparency is acheived\nCUBIC-L remains colorless after incubation with sample\n\n\n\nPre-Treatment: 200 mL 50% CUBIC-R+(M) at RT O/N\nRI Matching: 200 mL CUBIC-R+(M) at RT O/N\n\nReagent Totals (for a 12 cm x 8 cm x 6 cm container):\n\nCUBIC-L : 700 mL\nCUBIC-R+(M) : 300 mL Delipidation has reached its endpoint when:\n\n\n\n†Use a container that allows you to submerge your whole specimen.\n†For nuclear staining, we recommend using a solution of 30 μg/mL propidium iodide (PI) and 1.5M NaCl in PBS.\nFA: formaldehyde, O/N: overnight, PFA: paraformaldehyde, RT: room temperature.\n\n\nDecalcification (Whole Mouse).\n\n\n\nOverview of the advanced CUBIC pipeline in whole-organ cell profiling.\n\nThis pipeline comprises three major stages\n\nTissue clearing,\nImaging and\nImage analysis\n\nTwo kinds of clearing protocols:\n\nRapid and highquality protocol using CUBIC-L and CUBIC-R+ (Step 4A), which takes at least 7 d for adult mouse brain, and\nTissue expansion protocol for high-resolution imaging using CUBIC-X (Step 4B), which takes up to 21 d for adult mouse brain.\n\n\nIn addition, both protocols can include staining with an appropriate nuclei-staining dye, which takes 4 d.\nRapid volumetric imaging can be performed with a customized LSFM with the MOVIE system (Steps 6–12).\nFrom the collected volumetric images, cells are detected by GPUs and CPUs and converted to point data.\nWhen analyzing the mouse brain, the result data are analyzed with CUBIC-Atlas.\n\n\n\nProcedures for tissue clearing and gel embedding.\n\n\na, Preparation of CUBIC-R+. This reagent can be easily dissolved by mild heating and stirring.\nb,c, An incubator with a shaker (b) and a hybridization incubator (c) that we use for steps requiring temperature control for the clearing procedure; inset shows tube containing brain.\nd, Preparation of 2% agarose–CUBIC solution. Agarose can be dissolved by repeated heating using a microwave and shaking.\ne, A water bath for the degassing step.\nf, 2% agarose–CUBIC solution after the degassing step.\ng, The sample is immersed in 2% agarose–CUBIC solution before gelation.\nh, A mold for gelation. It is designed for mouse brain.\ni, x–y view after gelation. Scale bar, 10 mm.\nj, y–z view after gelation. Scale bar, 5 mm. A margin of 1 mm or more is recommended on the top and bottom of the sample.\nk, Removing the sample gel from the mold.\nl, Fixation of the gel on the customized sample holder. All experiments followed the relevant governmental and institutional guidelines for animal experiments."
-  },
-  {
     "objectID": "posts/Report01.html",
     "href": "posts/Report01.html",
     "title": "Cubic Protocol",
     "section": "",
     "text": "Report"
+  },
+  {
+    "objectID": "index.html#what-is-a-light-sheet-microscope",
+    "href": "index.html#what-is-a-light-sheet-microscope",
+    "title": "descSPIM_LSmicro",
+    "section": "What is a light sheet microscope?",
+    "text": "What is a light sheet microscope?\nA light sheet microscope, also known as a selective plane illumination microscope (SPIM), is an advanced imaging tool used in biological research. It is designed to minimize phototoxicity and photobleaching while providing high-resolution three-dimensional imaging of living specimens.\nIn a light sheet microscope, a thin sheet of laser light is used to illuminate the sample from the side, perpendicular to the direction of detection. This method reduces the exposure of the specimen to the intense illumination, minimizing damage and allowing long-term imaging of delicate or sensitive samples.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe light sheet microscope captures images by detecting the fluorescent light emitted by the sample. This fluorescence can occur naturally in the specimen or can be induced through labeling techniques such as fluorescent dyes or genetically encoded fluorescent proteins. By scanning the sample with the light sheet and capturing images from different angles, a three-dimensional image of the specimen can be reconstructed.\n\n\n\n\n\n\nSample\n\n\n\n\n\n\nThis chamber is different from the one shown in descSPIM\n\nThis chamber is a featured in the OpenSPIM Project.\n\n\nLimitations\nScattering:\n\n\n\n\n\nShadowing\n\n\n\n\n\n\n\n\n\n\n\n\nImprovements\nDouble side illumination, Pivoting and Bessel beam illumination\n\n\n\n\n\nPivoting\n\n\n\n\n\n\n\n\n\n\nLattice light sheet microscopy…"
+  },
+  {
+    "objectID": "about.html#images-and-text-tests",
+    "href": "about.html#images-and-text-tests",
+    "title": "About",
+    "section": "images and text tests:",
+    "text": "images and text tests:\nEx1\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur placerat arcu, sed feugiat ex ultrices vitae.\n \nDuis sed fringilla purus. Mauris pellentesque ullamcorper justo id ullamcorper. Vestibulum finibus, mauris ac eleifend accumsan, tortor enim finibus nulla, sit amet rutrum ipsum nisl eu nunc.\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et posuere mi. Sed euismod nunc ut turpis fermentum bibendum.\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur placerat arcu, sed feugiat ex ultrices vitae.\nEx2\nIn rstudio visual, img floats right/left, but in render, text does not wrap around the image.\n\n\n\n\nDuis sed fringilla purus. Mauris pellentesque ullamcorper justo id ullamcorper. Vestibulum finibus, mauris ac eleifend accumsan, tortor enim finibus nulla, sit amet rutrum ipsum nisl eu nunc.\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et posuere mi. Sed euismod nunc ut turpis fermentum bibendum.\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur placerat arcu, sed feugiat ex ultrices vitae."
+  },
+  {
+    "objectID": "supplementary/Protocols/Cubic/cubic_hv.html",
+    "href": "supplementary/Protocols/Cubic/cubic_hv.html",
+    "title": "Cubic HV",
+    "section": "",
+    "text": "Protocol"
   }
 ]

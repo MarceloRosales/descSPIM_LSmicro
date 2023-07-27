@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Marcelo Rosales">
+<meta name="dcterms.date" content="2023/07/20">
 
-<title>descSPIM_LSmicro - 3D imaging</title>
+<title>descSPIM_LSmicro - Cubic HV</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,24 +25,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../">
-<script src="../../site_libs/quarto-html/quarto.js"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<script src="../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -62,9 +64,9 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="../../styles.css">
-<meta property="og:title" content="descSPIM_LSmicro - 3D imaging">
-<meta property="og:description" content="Acquire continuous time-lapse images utilizing ThorCam while moving two motorized stages by “Sequence” function of Kinesis. And convert acquired xyt image data set to xyz image data set.">
+<link rel="stylesheet" href="../../../styles.css">
+<meta property="og:title" content="descSPIM_LSmicro - Cubic HV">
+<meta property="og:description" content="Comprehensive guide to using">
 <meta property="og:site-name" content="descSPIM_LSmicro">
 </head>
 
@@ -75,7 +77,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a class="navbar-brand" href="../../index.html">
+    <a class="navbar-brand" href="../../../index.html">
     <span class="navbar-title">descSPIM_LSmicro</span>
     </a>
   </div>
@@ -85,15 +87,15 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../index.html">
+    <a class="nav-link" href="../../../index.html">
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../about.html">
+    <a class="nav-link" href="../../../about.html">
  <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../Software.html">
+    <a class="nav-link" href="../../../Software.html">
  <span class="menu-text">Software</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -102,8 +104,12 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-protocols">    
         <li>
-    <a class="dropdown-item" href="../../supplementary/Protocols/Cubic/cubic.html">
+    <a class="dropdown-item" href="../../../supplementary/Protocols/Cubic/cubic.html">
  <span class="dropdown-text">Cubic</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../supplementary/Protocols/gel/gel.html">
+ <span class="dropdown-text">Gel embeding</span></a>
   </li>  
     </ul>
   </li>
@@ -113,21 +119,21 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-supplementary">    
         <li>
-    <a class="dropdown-item" href="../../supplementary/3dimaging/index.html">
+    <a class="dropdown-item" href="../../../supplementary/3dimaging/index.html">
  <span class="dropdown-text">3D Imaging</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../supplementary/construction/index.html">
+    <a class="dropdown-item" href="../../../supplementary/construction/index.html">
  <span class="dropdown-text">Construction</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../supplementary/OpticalAligment/OpticalAligment.html">
+    <a class="dropdown-item" href="../../../supplementary/OpticalAligment/OpticalAligment.html">
  <span class="dropdown-text">Optical Aligment</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../../blog.html">
+    <a class="nav-link" href="../../../blog.html">
  <span class="menu-text">Reports</span></a>
   </li>  
 </ul>
@@ -147,7 +153,7 @@ ul.task-list li input[type="checkbox"] {
     </nav>
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">3D imaging</h1>
+      <h1 class="quarto-secondary-nav-title">Cubic HV</h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -162,7 +168,12 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../supplementary/Protocols/Cubic/cubic.html" class="sidebar-item-text sidebar-link">Intro</a>
+  <a href="../../../supplementary/Protocols/Cubic/cubic.html" class="sidebar-item-text sidebar-link">Intro</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../supplementary/Protocols/Cubic/cubic_hv.html" class="sidebar-item-text sidebar-link active">Cubic HV</a>
   </div>
 </li>
     </ul>
@@ -174,7 +185,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#pdf" id="toc-pdf" class="nav-link active" data-scroll-target="#pdf">PDF</a></li>
+  <li><a href="#cubic-hv-staining" id="toc-cubic-hv-staining" class="nav-link active" data-scroll-target="#cubic-hv-staining">Cubic HV Staining</a></li>
   </ul>
 </nav>
     </div>
@@ -183,31 +194,43 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">3D imaging</h1>
+<h1 class="title d-none d-lg-block">Cubic HV</h1>
+<p class="subtitle lead">Comprehensive guide to using</p>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Marcelo Rosales </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">July 26, 2023</p>
+    </div>
+  </div>
   
+    <div>
+    <div class="quarto-title-meta-heading">Modified</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date-modified">July 28, 2023</p>
+    </div>
+  </div>
     
   </div>
   
 
 </header>
 
-<p>Acquire continuous time-lapse images utilizing ThorCam while moving two motorized stages by “Sequence” function of Kinesis. And convert acquired xyt image data set to xyz image data set.</p>
-<ul>
-<li>1 Camera and software are exchangeable, if they can capture continuous time-lapse images and save them as tif format</li>
-<li>2 Manual jog operation of the speed wheel enables the same job.</li>
-<li>3 Original program to control the whole process is also under construction.</li>
-</ul>
-<section id="pdf" class="level1">
-<h1>PDF</h1>
-<iframe width="100%" height="900px" src="../../resources/3Dimaging_ver230520.pdf">
-</iframe>
+<section id="cubic-hv-staining" class="level2">
+<h2 class="anchored" data-anchor-id="cubic-hv-staining">Cubic HV Staining</h2>
+<p>Protocol</p>
 
 
 </section>
