@@ -25,5 +25,11 @@
   },
   "supplementary/Protocols/Cubic/Cubic.qmd": {
     "Cubic.html": "c6e68442"
+  },
+  "posts/Report01.qmd": {
+    "Report01.html": "423c545b"
+  },
+  "blog.qmd": {
+    "blog.html": "cdab74f6"
   }
 }

@@ -1,0 +1,19 @@
+---
+title: "Reports"
+listing:
+  contents: posts # Contents will be taken from the posts folder
+  sort: "date desc"
+  type: default
+  categories: true
+page-layout: full
+#margin-header: signup.html
+title-block-banner: "#EDF3F9"
+title-block-banner-color: body
+search: false
+---
+
+Reports:
+
+::: callout-warning
+seems to be a glitch in the repost page, if page does not reload or a 404 mesage is displayed, please reload the site from web browser address: `lsmicro.descsimp.online`
+:::

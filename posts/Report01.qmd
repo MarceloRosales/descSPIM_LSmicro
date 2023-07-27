@@ -1,0 +1,27 @@
+---
+title: "Cubic Protocol"
+description: "Quick start for quarto"
+author: "Marcelo Rosales"
+date: date-created
+date-modified: last-modified
+categories:
+  - Website
+  - Blog
+  - Posts
+filters:
+  - lightbox # requires install of extension inside the project See "Complete Lightbox Example" post $quarto add quarto-ext/lightbox
+lightbox:
+  match: auto
+  effect: fade
+  desc-position: right
+  loop: true
+#  css-class: "my-css-class" #only if custom css file exists. 
+format: 
+  html: 
+    code-fold: true
+    code-copy: true
+    code-overflow: wrap
+Editor: Source 
+---
+
+Report

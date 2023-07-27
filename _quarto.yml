@@ -35,6 +35,9 @@ website:
             text: "Construction"
           - href: supplementary/OpticalAligment/OpticalAligment.qmd
             text: "Optical Aligment"
+            
+      - href: blog.qmd
+        text: "Reports"
 
     right: 
       - icon: github

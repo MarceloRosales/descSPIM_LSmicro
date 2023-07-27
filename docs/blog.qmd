@@ -1,0 +1,13 @@
+---
+title: "Blog"
+listing:
+  contents: posts # Contents will be taken from the posts folder
+  sort: "date desc"
+  type: default
+  categories: true
+page-layout: full
+#margin-header: signup.html
+title-block-banner: "#EDF3F9"
+title-block-banner-color: body
+search: false
+---
