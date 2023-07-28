@@ -399,6 +399,58 @@ Containers to be used
 
 {{< video https://www.cubicstars.com/cubic-hv/video/HV_procedure_ver1.mp4 >}}
 
+1.  Add nuclear stain into the 3D nuclear staing buffer
+
+2.  Mix with pipetting
+
+3.  Add the sample into the staining mix
+
+4.  Incubate with rotation at 37˚C for 3-5 days
+
+5.  Wash after nuclear stainig
+
+6.  Dispense the 3D nuclear staining wash buffer
+
+7.  Discard the staining mix
+
+8.  Collect the sample into the wash buffer
+
+9.  Wash with shaking
+
+10. Exchange to enzyme reaction buffer
+
+11. Discard the wash buffer
+
+12. Add the enzyme reaction buffer
+
+13. Keep shaking for exchange
+
+    Enzyme reaction
+
+14. Add exzyme to the reaction buffer
+
+15. Mix with pipetting
+
+16. Discard the exchange reaction buffer
+
+17. Collect the sample to the enzyme reaction mix
+
+18. Stand up the tube and incubate
+
+    Wash after enzyme reaction
+
+19. Dispense the enzyme reaction wash buffer in a new tube
+
+20. Discard the enzyme reaction mix
+
+21.  Collect the sample to the wash buffer
+
+22. Wash with shaking (repeat additional 2x without changing the tube)
+
+23. ....
+
+\-\--
+
 ## **CUBIC-HV™2**
 
 ref: [Guide book](https://www.cubicstars.com/assets/pdf/technical-guidebook-en.pdf){target="_blank"}
