@@ -21,8 +21,6 @@ format:
 
 Documentation for descSPIPM Light sheet microscopy, website at [http://lsmicro.descsimp.online/](http://lsmicro.descsimp.online/){target="_blank"}
 
-# Intro:
-
 ## **What is a light sheet microscope?**
 
 A light sheet microscope, also known as a **selective plane illumination microscope** (SPIM), is an advanced imaging tool used in biological research. It is designed to minimize phototoxicity and photobleaching while providing high-resolution three-dimensional imaging of living specimens.
