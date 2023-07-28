@@ -13,7 +13,7 @@ jobs:
       - name: FTP Deploy
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
-          server: researchnotes.prostho2.com # Subdomain name. !!NOT: FTP Accouns » Active hostname.. See:  //Hosting » Dashboard » Domains » Subdomains » List of current subdomains
+          server: lsmicro.descsimp.online # Subdomain name. !!NOT: FTP Accouns » Active hostname.. See:  //Hosting » Dashboard » Domains » Subdomains » List of current subdomains
           username: ${{ secrets.FTP_USERNAME }} # Set in github  
           password: ${{ secrets.FTP_PASSWORD }} # Set in github  
           local-dir: ./docs/
