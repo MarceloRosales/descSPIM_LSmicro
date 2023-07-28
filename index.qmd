@@ -2,17 +2,20 @@
 title: "descSPIM_LSmicro"
 author: "Marcelo Rosales"
 date: "2023/06/30"
+date-meta: "2023/07/20"  
+date-modified: last-modified
+subtitle: "" 
+page-layout: article
+anchor-sections: false
+search: false
+#  template: ../../ejs/links.ejs
+#  contents: guide.yml
+#image: /images/hero_right.png
 format: 
   html: 
     code-fold: false
     code-copy: true
     code-overflow: wrap
-    tbl-colwidths: [40, 60]
-    fontsize: ""
-filters:
-  - lightbox
-lightbox:
-  match: auto
 bibliography: references.bib
 ---
 

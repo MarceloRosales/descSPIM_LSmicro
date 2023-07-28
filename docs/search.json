@@ -1,31 +1,10 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "descSPIM_LSmicro",
-    "section": "",
-    "text": "Documentation for descSPIPM Light sheet microscopy, website at http://lsmicro.descsimp.online/"
-  },
-  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
     "text": "descSPIM : affordable but versatile light-sheet microscopy system for tissue clearing end users\n\n\ndescSPIM_CAD_for_GitHub_middle\n\n\n\ndescSPIM is a lightsheet microscopy system that we designed to meet the unmet needs of researchers who are using tissue clearing techniques. The system offers a low-cost and easy-to-use solution for 3D imaging of cleared tissue samples that requires little expertise and cost. Most optical components are readily available from a single vendor and can be readily assembled using the instructions provided. These minimal optical parts are arranged on a small optical breadboard. In contrast to existing lightsheet systems, descSPIM is intended to be simple to install, build, and operate, even for end users with no prior experience in optics. descSPIM is also highly expandable and can be customized to suit a variety of applications, making it a versatile tool for a wide range of research projects. With descSPIM, researchers can easily achieve practical-quality 3D imaging of cleared specimens in a daily experiments.\n\n\ndescSPIM_cost_vs_expertise_for_GitHub (1)_middle\n\n\nThe main features of descSPIM are: Easy-to-build Easy-to-operate (use a cuvette / no oil chamber) Affordable ($20k-50k for descSPIM-basic, depending on the number of lasers) Compact (all parts on a 300 mm x 450 mm breadboard)Versatile (highly expandable and customizable)## Who is the descSPIM for?\nResearchers interested in using Light-sheet fluorescence microscopy (LSFM) for cleared tissue imaging\n\n\nMacro- to meso-scale imaging of 3D volumetric samples prepared by tissue clearing techniques with strong efficiency (CUBIC, BABB, DISCO, SHIELDs etc.)\nVisualization of cell populations or anatomical structures (e.g. blood vessels, plaques) with cellular to sub-cellular resolutions"
-  },
-  {
-    "objectID": "index.html#the-sample-chamber",
-    "href": "index.html#the-sample-chamber",
-    "title": "descSPIM_LSmicro",
-    "section": "The Sample Chamber",
-    "text": "The Sample Chamber\n\n\nThis chamber is different from the one shown in descSPIM\n\nThis chamber is a feature in the OpenSPIM Project."
-  },
-  {
-    "objectID": "index.html#descspim-and-openspim",
-    "href": "index.html#descspim-and-openspim",
-    "title": "descSPIM_LSmicro",
-    "section": "DescSPIM and OpenSPIM",
-    "text": "DescSPIM and OpenSPIM\nDescSPIM and OpenSPIM are not the same organization.\n\nDescSPIM\nDescSPIM (Developing a Spinning-Disk Confocal Selective-Plane Illumination Microscope) is a project focused on developing an open-source selective-plane illumination microscopy (SPIM) system. It aims to create a modular and customizable SPIM platform that can be accessible to researchers and scientists for their imaging needs. The DescSPIM project focuses on hardware design, software development, and documentation related to SPIM systems.\n\n\nOpenSPIM\nOpenSPIM is a separate initiative that also aims to develop open-source SPIM systems. OpenSPIM is a collaborative effort by multiple researchers and institutions with the goal of providing an accessible and affordable SPIM solution. They focus on designing, building, and sharing hardware and software resources for SPIM.\nthe web page and info are available at OpenSPIM.org.\nWhile both DescSPIM and OpenSPIM share a common goal of advancing open-source SPIM technology, they are distinct projects with separate teams and communities involved in their development.\nLight sheet microscopy offers several advantages over traditional microscopy techniques. It provides fast acquisition rates, high resolution, and the ability to capture three-dimensional images over long periods without significant photodamage. This makes it particularly suitable for studying dynamic processes in living organisms, such as developmental biology, neuroscience, and cell biology."
   },
   {
     "objectID": "about.html#guide-to-install",
@@ -145,13 +124,6 @@
     "title": "Cubic Protocol",
     "section": "",
     "text": "Report"
-  },
-  {
-    "objectID": "index.html#what-is-a-light-sheet-microscope",
-    "href": "index.html#what-is-a-light-sheet-microscope",
-    "title": "descSPIM_LSmicro",
-    "section": "What is a light sheet microscope?",
-    "text": "What is a light sheet microscope?\nA light sheet microscope, also known as a selective plane illumination microscope (SPIM), is an advanced imaging tool used in biological research. It is designed to minimize phototoxicity and photobleaching while providing high-resolution three-dimensional imaging of living specimens.\nIn a light sheet microscope, a thin sheet of laser light is used to illuminate the sample from the side, perpendicular to the direction of detection. This method reduces the exposure of the specimen to the intense illumination, minimizing damage and allowing long-term imaging of delicate or sensitive samples.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe light sheet microscope captures images by detecting the fluorescent light emitted by the sample. This fluorescence can occur naturally in the specimen or can be induced through labeling techniques such as fluorescent dyes or genetically encoded fluorescent proteins. By scanning the sample with the light sheet and capturing images from different angles, a three-dimensional image of the specimen can be reconstructed.\n\n\n\n\n\n\nSample\n\n\n\n\n\n\nThis chamber is different from the one shown in descSPIM\n\nThis chamber is a featured in the OpenSPIM Project.\n\n\nLimitations\nScattering:\n\n\n\n\n\nShadowing\n\n\n\n\n\n\n\n\n\n\n\n\nImprovements\nDouble side illumination, Pivoting and Bessel beam illumination\n\n\n\n\n\nPivoting\n\n\n\n\n\n\n\n\n\n\nLattice light sheet microscopy…"
   },
   {
     "objectID": "about.html#images-and-text-tests",
