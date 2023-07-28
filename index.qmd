@@ -4,7 +4,7 @@ author: "Marcelo Rosales"
 date: "2023/06/30"
 date-meta: "2023/07/20"  
 date-modified: last-modified
-subtitle: "" 
+subtitle: Intoduction 
 page-layout: article
 anchor-sections: false
 search: false
@@ -16,7 +16,7 @@ format:
     code-fold: false
     code-copy: true
     code-overflow: wrap
-bibliography: references.bib
+# bibliography: references.bib
 ---
 
 Documentation for descSPIPM Light sheet microscopy, website at [http://lsmicro.descsimp.online/](http://lsmicro.descsimp.online/){target="_blank"}
