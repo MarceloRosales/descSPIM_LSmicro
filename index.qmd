@@ -16,7 +16,7 @@ lightbox:
 bibliography: references.bib
 ---
 
-Documentation for descSPIPM Light sheet microscopy, website at <http://lsmicro.descsimp.online/>
+Documentation for descSPIPM Light sheet microscopy, website at [http://lsmicro.descsimp.online/](http://lsmicro.descsimp.online/){target="_blank"}
 
 # Intro:
 
