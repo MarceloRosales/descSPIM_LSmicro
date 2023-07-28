@@ -24,7 +24,7 @@ website:
   
       - text: "Protocols"
         menu: 
-          - href: supplementary/Protocols/Cubic/index.qmd
+          - href: supplementary/Protocols/Cubic/Cubic.qmd
             text: "Cubic"
           - href: supplementary/Protocols/gel/gel.qmd
             text: "Gel embeding"
@@ -47,14 +47,14 @@ website:
       - icon: rss
 
   sidebar:
-    - id: cubic 
+    - id: Cubic 
       title: "Cubic Protocols"
       style: "floating"
       collapse-level: 3
       align: left
       contents:  
         - text: "Intro"
-          href: supplementary/Protocols/Cubic/index.qmd  
+          href: supplementary/Protocols/Cubic/Cubic.qmd  
         - text: "Cubic"
           href: supplementary/Protocols/Cubic/cubic02.qmd  
         - text: "Cubic HV"
