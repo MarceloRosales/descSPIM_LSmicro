@@ -4,7 +4,7 @@ author: "Marcelo Rosales"
 date: "2023/07/26"  
 date-meta: "2023/07/20"  
 date-modified: last-modified
-subtitle: Comprehensive guide to using 
+subtitle: Comprehensive guide 
 page-layout: article
 anchor-sections: false
 search: false
@@ -25,7 +25,7 @@ Compleate protocol for Mouse Tumor Models.
 
 ### Whole-mouse Clearing
 
-Mouse whole-Body Clearing (without decalcification process)
+Mouse [whole-Body Clearing](https://www.tcichemicals.com/assets/brochure-pdfs/Brochure_LL060_E.pdf){target="_blank"} (without decalcification process)
 
 ![](images/mouse_wholebody_cleraing_img.png)
 
@@ -48,10 +48,24 @@ Mouse whole-Body Clearing (without decalcification process)
 
 FA: formaldehyde, O/N: overnight, PFA: paraformaldehyde, RT: room temperature.
 
+### Whole-organ 
+
+![](images/Organ_clearing02.png)
+
 ### Decalcification overview
 
 Decalcification (Whole Mouse).
 
 ![](images/Decalcification_wholeMouse_img.png)
 
-### 
+## Decalcification + Cubic-HV 
+
+### Process outline:
+
+![](images/Bone_clearing01.png)
+
+![](images/Bone_clearing02.png)
+
+Process details:
+
+(see cubic_hv section)

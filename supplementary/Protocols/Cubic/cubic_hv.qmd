@@ -405,8 +405,6 @@ ref: [Guide book](https://www.cubicstars.com/assets/pdf/technical-guidebook-en.p
 
 Process outline:
 
-![](images/Bone_clearing01.png)
-
-![](images/Bone_clearing02.png)
+![](images/cubic_hv_staining01.png)
 
 Process details:
