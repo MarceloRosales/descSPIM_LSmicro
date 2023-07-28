@@ -1,5 +1,5 @@
 ---
-title: "Cubic"
+title: "Cubic Intro"
 author: "Marcelo Rosales"
 date: "2023/07/26"  
 date-meta: "2023/07/20"  
@@ -52,38 +52,7 @@ CUBIC-R+(M) is superior in retaining the fluorescence signal. However, at low te
 
 -   Using light-sheet fluorescent microscopy (LSFM) or confocal laser-scanning microscopy (CLSM) enables the whole-organ / body imaging at a cellular resolution.
 
-### Whole-mouse Clearing
-
-Mouse whole-Body Clearing (without decalcification process)
-
-![](images/mouse_wholebody_cleraing_img.png)
-
-**Application: Whole Adult Mouse**
-
--   **Pre-Treatment: 200 mL 50% CUBIC-L at 37°C O/N**
--   **Delipidation: 200 mL CUBIC-L at 37°C for 5 days**
-    -   (CUBIC-L refreshed on days 1, 2, and 4)
-        -   Delipidation has reached its endpoint when:
-            -   Partial transparency is acheived
-            -   CUBIC-L remains colorless after incubation with sample
--   **Pre-Treatment: 200 mL 50% CUBIC-R+(M) at RT O/N**
--   **RI Matching: 200 mL CUBIC-R+(M) at RT O/N**
-    -   Reagent Totals (for a 12 cm x 8 cm x 6 cm container):
-        -   CUBIC-L : 700 mL
-        -   CUBIC-R+(M) : 300 mL Delipidation has reached its endpoint when:
-
-†Use a container that allows you to submerge your whole specimen.\
-†For nuclear staining, we recommend using a solution of 30 μg/mL propidium iodide (PI) and 1.5M NaCl in PBS.
-
-FA: formaldehyde, O/N: overnight, PFA: paraformaldehyde, RT: room temperature.
-
-### Decalcification.
-
-Decalcification (Whole Mouse).
-
-![](images/Decalcification_wholeMouse_img.png)
-
-### Overview of procedures
+### Complete Overview of procedures
 
 Overview of the advanced CUBIC pipeline in whole-organ cell profiling.
 
@@ -104,21 +73,4 @@ Two kinds of clearing protocols:
 -   Rapid volumetric imaging can be performed with a customized LSFM with the MOVIE system (Steps 6--12).
 -   From the collected volumetric images, cells are detected by GPUs and CPUs and converted to point data.
 -   When analyzing the mouse brain, the result data are analyzed with CUBIC-Atlas.
-
-### gel embedding.
-
-Procedures for tissue clearing and gel embedding.
-
-![](images/Cubic_workflow-02.png)
-
--   a, Preparation of CUBIC-R+. This reagent can be easily dissolved by mild heating and stirring.
--   b,c, An incubator with a shaker (b) and a hybridization incubator (c) that we use for steps requiring temperature control for the clearing procedure; inset shows tube containing brain.
--   d, Preparation of 2% agarose--CUBIC solution. Agarose can be dissolved by repeated heating using a microwave and shaking.
--   e, A water bath for the degassing step.
--   f, 2% agarose--CUBIC solution after the degassing step.
--   g, The sample is immersed in 2% agarose--CUBIC solution before gelation.
--   h, A mold for gelation. It is designed for mouse brain.
--   i, x--y view after gelation. Scale bar, 10 mm.
--   j, y--z view after gelation. Scale bar, 5 mm. A margin of 1 mm or more is recommended on the top and bottom of the sample.
--   k, Removing the sample gel from the mold.
--   l, Fixation of the gel on the customized sample holder. All experiments followed the relevant governmental and institutional guidelines for animal experiments.
+-   

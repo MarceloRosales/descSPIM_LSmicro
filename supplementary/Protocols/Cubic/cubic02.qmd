@@ -22,3 +22,36 @@ bibliography: references.bib
 Protocol for Imaging and Analysis of Mouse Tumor Models with CUBIC Tissue Clearin. [Article](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7757565/){target="_blank"}.
 
 Compleate protocol for Mouse Tumor Models.
+
+### Whole-mouse Clearing
+
+Mouse whole-Body Clearing (without decalcification process)
+
+![](images/mouse_wholebody_cleraing_img.png)
+
+**Application: Whole Adult Mouse**
+
+-   **Pre-Treatment: 200 mL 50% CUBIC-L at 37°C O/N**
+-   **Delipidation: 200 mL CUBIC-L at 37°C for 5 days**
+    -   (CUBIC-L refreshed on days 1, 2, and 4)
+        -   Delipidation has reached its endpoint when:
+            -   Partial transparency is acheived
+            -   CUBIC-L remains colorless after incubation with sample
+-   **Pre-Treatment: 200 mL 50% CUBIC-R+(M) at RT O/N**
+-   **RI Matching: 200 mL CUBIC-R+(M) at RT O/N**
+    -   Reagent Totals (for a 12 cm x 8 cm x 6 cm container):
+        -   CUBIC-L : 700 mL
+        -   CUBIC-R+(M) : 300 mL Delipidation has reached its endpoint when:
+
+†Use a container that allows you to submerge your whole specimen.\
+†For nuclear staining, we recommend using a solution of 30 μg/mL propidium iodide (PI) and 1.5M NaCl in PBS.
+
+FA: formaldehyde, O/N: overnight, PFA: paraformaldehyde, RT: room temperature.
+
+### Decalcification overview
+
+Decalcification (Whole Mouse).
+
+![](images/Decalcification_wholeMouse_img.png)
+
+### 

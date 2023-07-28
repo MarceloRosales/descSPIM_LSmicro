@@ -21,6 +21,74 @@ format:
 
 Gel embedding procedure:
 
+## Gel embedding
+
+Procedures for tissue clearing and gel embedding.
+
+![](/supplementary/Protocols/Cubic/images/Cubic_workflow-02.png)
+
+-   a, Preparation of CUBIC-R+. This reagent can be easily dissolved by mild heating and stirring.
+-   b,c, An incubator with a shaker (b) and a hybridization incubator (c) that we use for steps requiring temperature control for the clearing procedure; inset shows tube containing brain.
+-   d, Preparation of 2% agarose--CUBIC solution. Agarose can be dissolved by repeated heating using a microwave and shaking.
+-   e, A water bath for the degassing step.
+-   f, 2% agarose--CUBIC solution after the degassing step.
+-   g, The sample is immersed in 2% agarose--CUBIC solution before gelation.
+-   h, A mold for gelation. It is designed for mouse brain.
+-   i, x--y view after gelation. Scale bar, 10 mm.
+-   j, y--z view after gelation. Scale bar, 5 mm. A margin of 1 mm or more is recommended on the top and bottom of the sample.
+-   k, Removing the sample gel from the mold.
+-   l, Fixation of the gel on the customized sample holder. All experiments followed the relevant governmental and institutional guidelines for animal experiments.
+
+## Gel embedding video
+
 ref: [riken.jp](http://cubic.riken.jp/)
 
 {{< video http://cubic.riken.jp/data/Gel_embedding_of_CUBIC-R-cleared_sample.mp4 >}}
+
+Steps:
+
+1.  Filtering of CUBIC-R (used for clearing)
+
+2.  Add agarose (2%?)
+
+3.  Mix with vortex
+
+4.  Heating with microwave
+
+5.  Further mix with vortex
+
+6.  Repeat heating and vortex until complete dissolution)
+
+7.  Keep warming with water bath at 60˚C
+
+8.  Cover gel mold with parafilm
+
+9.  Prepare the first layer at 45˚C
+
+10. Remove bubbles and dust
+
+11. Cool down 1st layer to 4˚C for gelation
+
+    Embedding the sample in the 2nd layer (keep worming at 45˚C)
+
+12. Blend the sample in the CUBIC-R/agarose
+
+13. Place sample over the 1st layer
+
+14. Fully embbed the sample in CUBIC-R/agarose 2nd layer
+
+15. Remove bubbles and dusts
+
+16. Cool down 2nd layer to 4˚C for gelation
+
+17. Prepare the 3rd layer at 45˚C
+
+18. Remove bubbles and dusts
+
+19. Make flat plane with slide glass
+
+20. Protect form light
+
+21. Recover the gel from the mold
+
+22. Inmerse in CUBIC-R for storage and equilibration (the precipitates will be dissolved in CUBIC-R)

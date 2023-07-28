@@ -68,7 +68,7 @@ website:
       collapse-level: 3
       align: left
       contents:  
-        - text: "Intro"
+        - text: "Gel Embedding"
           href: supplementary/Protocols/gel/gel.qmd
         - text: ""
           href: ""  

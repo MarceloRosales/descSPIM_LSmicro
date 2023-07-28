@@ -47,9 +47,9 @@ CUBIC-HV™1 3D immunostaining kit. 1kit \[C3708\]
 CUBIC-HV™1 3D nuclear staining kit 1kit \[C3709\]
 
 -   1 x 3D Nuclear Staining Buffer (for 10 tests)
--    100 x 3D Nuclear Staining Washing Buffer (for 10 tests)
--    200 x DAPI 2HCl (1mg/mL in Water) \[for Cell Staining\] (for 10 tests)
--    100 x Propidium Iodide (1mg/mL in Water) \[for Cell Staining\] (for 10 tests)
+-   100 x 3D Nuclear Staining Washing Buffer (for 10 tests)
+-   200 x DAPI 2HCl (1mg/mL in Water) \[for Cell Staining\] (for 10 tests)
+-   100 x Propidium Iodide (1mg/mL in Water) \[for Cell Staining\] (for 10 tests)
 -   10 packs of 5mL tube
 
 Reference E. A. Susaki, H. R. Ueda, et al., Nat. Commun. 2020, 11, 1982. https://doi.org/10.1038/s41467-020-15906-5
@@ -99,15 +99,15 @@ Now (2023/07/26) seems like there is a [new line up](https://www.cubicstars.com/
 
     :   (tax and shipping fee are not included) 590USD
 
-## Original Protocol
+## CUBIC-HVTM1
+
+### Original Protocol
 
 ![](images/cubic_hv_workflow01.png)
 
-### CUBIC-HVTM1 
-
 3D staining protocol (version 2020.07) \[for a whole mouse brain\] ref: [link here](https://www.cubicstars.com/cubic-hv/pdf/CUBIC-HV(TM)1_gereral%20protocol_ver202007.pdf){target="_blank"}.
 
-#### MATERIALS 
+#### MATERIALS
 
 Reagents in kit
 
@@ -146,20 +146,15 @@ Nuclear staining reagents
 -   Propidium Iodide (PI) (included in CUBIC-HVTM1 3D nuclear staining kit)
 -   RedDot™2 Far-Red Nuclear Stain: Biotium #40061
 
-#### Antibodies 
+#### Antibodies
 
-Primary antibody
-According to the user\'s purpose\*
-\*CUBICStars provides technical notes for a validated antibody. See our website ( <https://www.cubicstars.com/cubic-hv/index.html> ) or email at
-for request)
+Primary antibody According to the user's purpose\* \*CUBICStars provides technical notes for a validated antibody. See our website ( <https://www.cubicstars.com/cubic-hv/index.html> ) or email at for request)
 
 ::: callout-note
 The use of antibody products with a concentration of 250 µg/mL or higher isrecommended.
 :::
 
-Secondary antibody
-FabuLight Fc specific Fab fragment (Jackson Immunolab)
-<https://www.jacksonimmuno.com/catalog/31#target:15>
+Secondary antibody FabuLight Fc specific Fab fragment (Jackson Immunolab) <https://www.jacksonimmuno.com/catalog/31#target:15>
 
 ::: callout-important
 Alexa FluorTM 488 is not compatible with CUBIC-R+.
@@ -175,47 +170,220 @@ Containers to be used
 -   30 mL tube: SARSTEDT #60.544
 -   50 mL tube: Falcon #352070
 
-Process outline
+### Process outline
 
-Perfusion fixation and dissection of the mouse brain
-↓
+1.  Perfusion fixation and dissection of the mouse brain
 
-Post-fix
-↓ \~24 h
-Wash (PBS)
-↓ 2 h x3
-Delipidation (CUBIC-L)
-↓ 3\~7 days
-Wash (PBS)
-↓ 2 h x3
-Nuclear staining (HVTM1 3D nuclear staining buffer)
-↓ 3\~5 days
-Wash (3D nuclear staining wash buffer)
-↓ 2 h x3 （If antibody staining is not required, skip the following steps and proceed to RI matching）
-============================= Optional process ================================
-Exchange with the hyaluronidase reaction buffer
-↓ 2 h \~
-Enzyme reaction (Hyaluronidase)
-↓ 24 h
-Wash (Hyaluronidase wash buffer)
-↓ 2 h x3
-===========================================================================
-Primary antibody + secondary antibody reaction / Replacement with HVTM1 3D immunostaining
-buffer
-↓ 1.5 h
-Immunostaining \[HVTM1 3D immunostaining buffer with HVTM1 additive (if required)\]
-↓ 1 week\~ (up to the selected primary Ab)
-Reaction at 4°C
-↓ 1 day
-Wash (HVTM1 3D immunostaining wash buffer)
-↓ 2 h x3
-Post-fix
-↓ 1 day
-Wash (PBS)
-↓ 2 h
-RI matching (CUBIC-R+)
-↓ \~3 days
-Microscopic observation
+2.  Post-fix `~24 h`
+
+3.  Wash (PBS) `2 h x3`
+
+4.  Delipidation (CUBIC-L) `3~7 days`
+
+5.  Wash (PBS) `2 h x3`
+
+6.  Nuclear staining (HVTM1 3D nuclear staining buffer) `3~5 days`
+
+7.  Wash (3D nuclear staining wash buffer) `2 h x3`
+
+    (If antibody staining is not required, skip the following steps and proceed to RI matching）
+
+    === Optional process (start) ===
+
+8.  Exchange with the hyaluronidase reaction buffer `2 h ~`
+
+9.  Enzyme reaction (Hyaluronidase) `24 h`
+
+10. Wash (Hyaluronidase wash buffer) `2 h x3`
+
+    === Optional process (end) ===
+
+11. Primary antibody + secondary antibody reaction / Replacement with HVTM1 3D immunostaining buffer `1.5 h`
+
+12. Immunostaining \[HVTM1 3D immunostaining buffer with HVTM1 additive (if required)\] `1 week~ (up to the selected primary Ab)`
+
+13. Reaction at 4°C `1 day`
+
+14. Wash (HVTM1 3D immunostaining wash buffer) `2 h x3`
+
+15. Post-fix `1 day`
+
+16. Wash (PBS) `2 h`
+
+17. RI matching (CUBIC-R+) `~3 days`
+
+18. Microscopic observation
+
+### Process details
+
+::: callout-note
+-   Reagent volume and reaction time are indicated for staining a single whole mouse brain. It is required to adjust the volume and reaction time according to sample size.
+-   All shaking steps except for enzyme reaction, immunostaining, and 4°C reaction are performed with the tube in the horizontal position.
+-   Brain samples after delipidation are easily damaged and should be handled with a metal spoon. 
+:::
+
+1.  Collection of mouse brain\* 
+
+    1.  Anesthetize the mouse with an overdose of pentobarbital sodium salt (nacalai tesque #02095- 04) in PBS or saline. 
+
+    2.  Transcardially perfuse with 10 mL (4 mL/min) of cold heparin-PBS (+10 U/mL Heparin). 
+
+    3.  Transcardially perfuse 20 mL (6 mL/min) of cold 4% (w/v) paraformaldehyde. 
+
+    4.  Dissect the brain from the skull. 
+
+    5.  Post-fix the dissected brain in 4% (w/v) PFA in PBS (\~10 mL/whole brain) for overnight (8-24 h) at 4°C with gentle shaking (40-50 rpm/min). 
+
+    6.  Wash the sample in PBS (+0.05% NaN3) for 3 h x 3 times at room temperature with gentle shaking (40-50 rpm/min). 
+
+\*Refer to Susaki et al. Nature Protocol 10:1709--1727 (2015) for details. 
+
+2.  Delipidation 
+
+    1.  Immerse the fixed sample in 10 mL of 0.5x CUBIC-L (1:1 dilution with distilled water) in the 30 mL tube and incubate it for overnight at room temperature with gentle shaking (40-50 rpm/min). 
+
+    2.  Replace to 10-15 mL of 1x CUBIC-L in the 30 mL tube and delipidate for 3-5 days\* at 37°C with gentle shaking (40-50 rpm/min). 
+
+        \*If the CUBIC-L treatment is more than 3 days, replace with a new CUBIC-L every 2 to 3 days.
+
+    3.  Wash the sample with 20 mL of PBS (+0.05% NaN3) for 2 h x 3 times (or 2 h x1, overnight x1, 2 h x1) at 37°C with gentle shaking (40-50 rpm/min).\
+        \[NOTE\] The tubes should be washed or replaced each time to intensively remove Triton X-100. 
+
+3.  3D nuclear staining 
+
+    1.  Dilute either of nuclear stains in 3-4 mL of 1x HVTM1 3D nuclear staining buffer in the 5 mL tube.\
+        DAPI: 1/200\
+        BOBO-1: 1/400\
+        SYTOX-G: 1/2500\
+        PI: 1/100\
+        RedDot2: 1/250 
+
+    2.  Immerse the sample in 1x HVTM1 3D nuclear staining buffer containing either of the stains. Incubate the tube with rotation (4-5 rpm) at 37°C for the following periods, protected from light.\
+        DAPI: 5 days\
+        BOBO-1: 5 days\
+        SYTOX-G: 5 days\
+        PI: 3 days\
+        RedDot2: 3 days\
+        \[NOTE\] Increase the volume over 4 mL when the staining depth and signal intensity are insufficient. 
+
+    3.  Wash the sample with 15 mL of 3D nuclear staining wash buffer in the 30 mL tube protected from light for 2 h x 3 times at 25°C with gentle shaking (40-50 rpm/min).\
+        \[NOTE\] If the following antibody staining is not required, proceed to 8) RI matching. 
+
+=== Optional process (start) ===
+
+4.  Enzyme reaction
+
+    1.  Immerse the sample in 15 mL of hyaluronidase reaction buffer in the 30 mL tube protected from light for overnight at 4°C with gentle shaking (40-50 rpm/min). (or for 2 h at 37°C)
+    2.  Prepare enzyme solution by mixing 75 µL of 20 mg/mL hyaluronidase stock into 425 µL of reaction buffer (final 3 mg/mL in 500 µL).
+    3.  Immerse the sample in the 500 µL of enzyme solution in the 15 mL standing tube protected from light for 24 h at 37°C with gentle shaking (40-50 rpm/min).
+
+    ::: callout-note
+    -   To avoid damage, put the brain so that the dorsal side comes to the bottom of the tube.
+    -   Some antibodies are not compatible with the hyaluronidase reaction. Alternatively, Collagenase P can be used (see Nature Communications 2020 for details).
+    :::
+
+    4.  Wash the sample in 15 mL of hyaluronidase wash buffer in the 30 mL tube protected from light for 2 h x 3 times at 37°C with gentle shaking (40-50 rpm/min).
+
+\
+=== Optional process (end) === 
+
+5.  **Preparation for 3D immunostaining**
+
+    Start the following preparatory tasks (1) and (2) 1.5 h prior to the staining procedure. 
+
+    1.  Primary antibody + secondary antibody reaction
+
+        1.  Calculate the required amount (X, Y) of primary and secondary (Fab) antibodies.
+            -   Primary antibody: 5 µg/whole brain
+
+                \*For 1 mg/mL product, X = 5/1 = 5 µL
+
+            -   Secondary antibody: anti-Fc Fab, 3.75 µg/whole brain (1:0.75 as the weight ratio)
+
+                \*For 1.5 mg/mL product, Y = 3.75/1.5 = 2.5 µL
+
+        ::: callout-note
+        The amount of primary antibody should be determined for each application.
+
+        The amount of secondary antibody should be adjusted according to the degree of noise and signal intensity.
+        :::
+
+        2.  Mix X µL of primary antibody and Y µL of secondary antibody in the Protein LoBind 500 µL tube.\
+            Incubate it protected from light for 1.5 h at 37°C. 
+
+    2.  Exchange the immersion media with HVTM1 3D immunostaining buffer.
+
+        1.  Prepare 1x HVTM1 3D immunostaining buffer as follows:
+
+            |                                   |        |
+            |-----------------------------------|--------|
+            | 2x HVTM1 3D immunostaining buffer | 7.5 mL |
+            | Distilled water                   | 7.5 mL |
+            | Total                             | 15 mL  |
+
+        2.  Immerse the sample in 15 mL of 1x HVTM1 3D immunostaining buffer in the 30 mL tube. Incubate it protected from light for 1.5 h at a specific staining temperature for the antibody with gentle shaking (40-50 rpm/min).
+
+            ::: callout-note
+            A staining temperature of 32°C is generally used. Depending on the antibody, 25°C (room temperature) or 37°C may be optimal. 
+            :::
+
+6.  3D Immunostaining
+
+    1.  Prepare antibody staining solution (500 µL per whole brain) as follows:
+
+        |                                   |                   |
+        |-----------------------------------|-------------------|
+        | 2x HVTM1 3D immunostaining buffer | 250 µL (final 1x) |
+        | 10x HVTM1 additive                | 50 µL (final 1x)  |
+        | Distilled water                   | 200-(X+Y) µL      |
+
+        Add the entire volume to the 500 µL tube containing an X+Y µL antibody mixture.
+
+    2.  Transfer the mixed antibody staining solution into the 15 mL standing tube and immerse the buffer-exchanged sample. Incubate it protected from light for 1 week\~ at 32°C with gentle shaking (40-50 rpm/min).
+
+        ::: callout-note
+        \[ \] Shake the tube in an upright position as during the staining.\
+        \[ \] To avoid damage, put the brain so that the dorsal side comes to the bottom of the tube.\
+        \[ \] Close the lid tightly and wrap the parafilm to prevent evaporation.\
+        \[ \] Staining period should be determined for each antibody.\
+        \[ \] The amount of HVTM1 additive should be adjusted for each antibody. 
+        :::
+
+    3.  To stabilize the 2nd Fab signals, gently shake the staining tube protected from light with a shaker (40-50 rpm/min) for a further 24 h at 4°C.
+
+        ::: callout-note
+        \[ \] Shake the tube in an upright position as during the staining.\
+        \[ \] If the primary antibody shows a non-specific staining signal at 4°C, this step should be skipped. 
+        :::
+
+    4.  Wash the sample in 15 mL of pre-cooled 1x HVTM1 3D immunostaining wash buffer in the 30 mL tube protected from light for 30 min x 2 times at 4°C with gentle shaking (40-50 rpm/min).
+
+        ::: callout-note
+        \[ \] To stabilize the binding of Fab antibodies and reduce the non-specific signal, make the reagents cooled to 4°C prior to washing and post-staining fixation operations.\
+        \[ \] In the case that the above 4°C reaction is skipped, wash the sample at the immunostaining temperature. 
+        :::
+
+7.  Post-fixation 
+
+    1.  Prepare the fixative solution by diluting the saturated formalin (FA) product to the final 1% in 1x HVTM1 3D immunostaining wash buffer and cool it to 4°C.
+
+        ::: callout-note
+        \[ \] The saturated formalin solution contains 35 to 38% formalin. For example, when you use a 37% formalin solution, dilute it with 1x HVTM1 3D immunostaining wash buffer at a ratio of 1:36. 
+        :::
+
+    2.  Immerse the sample in 8 mL of 1% FA in the 15 mL standing tube protected from light for 24 h at 4°C with gentle shaking (40-50 rpm/min). 
+
+    3.  To accelerate the fixation reaction, further incubate the sample in 1% FA protected from light for 1 h at 37°C with gentle shaking (40-50 rpm/min). 
+
+    4.  Wash the sample in 15 mL of PBS in a 30 mL tube protected from light for 2 h at 25°C with gentle shaking (40-50 rpm/min) 
+
+8.  RI matching 
+
+    1.  Immerse the sample in 15 mL of 0.5x CUBIC-R+ (1:1 diluted with water) in the 30 mL tube protected from light for 24 h at 25°C with gentle shaking (40-50 rpm/min). 
+
+    2.  Exchange with 15 mL (or 30 mL if gel embedding is performed) of 1x CUBIC-R+ for 2 days at 25°C with gentle shaking (40-50 rpm/min). 
+
+    3.  Use for microscopic observation (embed the sample in gel if necessary).
 
 \-\--
 
@@ -230,3 +398,15 @@ Microscopic observation
 (for brain tissue)
 
 {{< video https://www.cubicstars.com/cubic-hv/video/HV_procedure_ver1.mp4 >}}
+
+## **CUBIC-HV™2**
+
+ref: [Guide book](https://www.cubicstars.com/assets/pdf/technical-guidebook-en.pdf){target="_blank"}
+
+Process outline:
+
+![](images/Bone_clearing01.png)
+
+![](images/Bone_clearing02.png)
+
+Process details:
