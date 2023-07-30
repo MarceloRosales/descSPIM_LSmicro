@@ -16,7 +16,7 @@ website:
 
     right:
       - icon: github
-        href: ""
+        href: "https://github.com/mkdocs/"
       - icon: rss
 
     left:
