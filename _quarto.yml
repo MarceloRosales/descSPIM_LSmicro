@@ -43,10 +43,10 @@ website:
       - href: blog.qmd
         text: "Reports"
 
-    right: 
-      # - icon: github
-      #   href: ""
-      - icon: rss
+    # right: 
+    #   # - icon: github
+    #   #   href: ""
+    #   - icon: rss
 
   sidebar:
     - id: Cubic 
