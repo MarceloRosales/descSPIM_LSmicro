@@ -13,7 +13,12 @@ website:
     logo-alt: ""
     logo-href: ""
     collapse-below: lg
-    
+
+    right:
+      - icon: github
+        href: ""
+      - icon: rss
+
     left:
       - href: index.qmd
         text: "Home"
@@ -42,11 +47,6 @@ website:
             
       - href: blog.qmd
         text: "Reports"
-
-    # right: 
-    #   # - icon: github
-    #   #   href: ""
-    #   - icon: rss
 
   sidebar:
     - id: Cubic 
