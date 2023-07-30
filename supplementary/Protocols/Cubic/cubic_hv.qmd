@@ -393,7 +393,7 @@ Containers to be used
 
 ## Staining video
 
-3D nuclear staining and immunostaining steps by CUBIC-HV^TM^1 kits
+3D nuclear staining and immunostaining steps by [CUBIC-HV](https://www.cubicstars.com/cubic-hv/index.html){target="_blank"}^TM^1 kits
 
 (for brain tissue)
 

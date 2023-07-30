@@ -44,8 +44,8 @@ website:
         text: "Reports"
 
     right: 
-      - icon: github
-        href: ""
+      # - icon: github
+      #   href: ""
       - icon: rss
 
   sidebar:
