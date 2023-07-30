@@ -92,3 +92,5 @@ Steps:
 21. Recover the gel from the mold
 
 22. Inmerse in CUBIC-R for storage and equilibration (the precipitates will be dissolved in CUBIC-R)
+
+23. ...
