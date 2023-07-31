@@ -5,7 +5,7 @@ date: "2023/07/31"
 date-meta: "2023/07/20"  
 date-modified: last-modified
 subtitle: Order materials and reagents 
-page-layout: article
+# page-layout: article
 anchor-sections: true
 search: true
 #  template: ../../ejs/links.ejs
@@ -19,10 +19,10 @@ format:
 #bibliography: references.bib
 ---
 
-Order products [order](https://www.cubicstars.com/en/order/):
+Order products [here](https://www.cubicstars.com/en/order/):
 
 | Product                                     | Item \#     | Quantity | Amount | Price   |
-|------------------------------|-----------|-----------|-----------|-----------|
+|---------------------------------------------|-------------|----------|--------|---------|
 | CUBIC-L                                     | \[CSCR001\] | (500ml)  | 1      | 580USD  |
 | CUBIC-B                                     | \[CSCR003\] | (100ml)  | 1      | 160USD  |
 | CUBIC-R+(N)                                 | \[CSCR002\] | (500ml)  | 1      | 400USD  |
