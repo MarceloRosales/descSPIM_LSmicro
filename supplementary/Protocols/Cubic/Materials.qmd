@@ -1,0 +1,34 @@
+---
+title: "Materials"
+author: "Marcelo Rosales"
+date: "2023/07/31"  
+date-meta: "2023/07/20"  
+date-modified: last-modified
+subtitle: Order materials and reagents 
+page-layout: article
+anchor-sections: true
+search: true
+#  template: ../../ejs/links.ejs
+#  contents: guide.yml
+#image: /images/hero_right.png
+format: 
+  html: 
+    code-fold: false
+    code-copy: true
+    code-overflow: wrap
+#bibliography: references.bib
+---
+
+Order products [order](https://www.cubicstars.com/en/order/):
+
+| Product                                     | Item \#     | Quantity | Amount | Price   |
+|------------------------------|-----------|-----------|-----------|-----------|
+| CUBIC-L                                     | \[CSCR001\] | (500ml)  | 1      | 580USD  |
+| CUBIC-B                                     | \[CSCR003\] | (100ml)  | 1      | 160USD  |
+| CUBIC-R+(N)                                 | \[CSCR002\] | (500ml)  | 1      | 400USD  |
+| CUBIC-HV™2 3D tissue staining kit (starter) | \[CSSR003\] | (500ml)  | 1      | 1580USD |
+|                                             |             |          |        |         |
+
+order [here](https://www.cubicstars.com/en/order/){target="_blank"}.
+
+![](images/Materials_order-01.png)

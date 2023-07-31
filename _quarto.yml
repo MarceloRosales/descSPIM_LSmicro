@@ -61,8 +61,8 @@ website:
           href: supplementary/Protocols/Cubic/cubic02.qmd  
         - text: "Cubic HV"
           href: supplementary/Protocols/Cubic/cubic_hv.qmd   
-        - text: ""
-          href: ""
+        - text: "Orders"
+          href: supplementary/Protocols/Cubic/Materials.qmd
 
     - id: gel
       title: "Gel Protocol"

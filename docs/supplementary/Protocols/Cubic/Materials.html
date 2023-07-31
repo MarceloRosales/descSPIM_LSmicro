@@ -9,7 +9,7 @@
 <meta name="author" content="Marcelo Rosales">
 <meta name="dcterms.date" content="2023/07/20">
 
-<title>descSPIM_LSmicro - Cubic</title>
+<title>descSPIM_LSmicro - Materials</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -35,6 +35,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../../site_libs/quarto-html/quarto.js"></script>
 <script src="../../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
 <link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
@@ -64,8 +65,8 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="../../../styles.css">
-<meta property="og:title" content="descSPIM_LSmicro - Cubic">
-<meta property="og:description" content="Comprehensive guide">
+<meta property="og:title" content="descSPIM_LSmicro - Materials">
+<meta property="og:description" content="Order materials and reagents">
 <meta property="og:site-name" content="descSPIM_LSmicro">
 </head>
 
@@ -156,7 +157,7 @@ ul.task-list li input[type="checkbox"] {
     </nav>
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">Cubic</h1>
+      <h1 class="quarto-secondary-nav-title">Materials</h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -176,7 +177,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../supplementary/Protocols/Cubic/cubic02.html" class="sidebar-item-text sidebar-link active">Cubic</a>
+  <a href="../../../supplementary/Protocols/Cubic/cubic02.html" class="sidebar-item-text sidebar-link">Cubic</a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -186,7 +187,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../supplementary/Protocols/Cubic/Materials.html" class="sidebar-item-text sidebar-link">Orders</a>
+  <a href="../../../supplementary/Protocols/Cubic/Materials.html" class="sidebar-item-text sidebar-link active">Orders</a>
   </div>
 </li>
     </ul>
@@ -194,27 +195,15 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#whole-mouse-clearing" id="toc-whole-mouse-clearing" class="nav-link active" data-scroll-target="#whole-mouse-clearing">Whole-mouse Clearing</a></li>
-  <li><a href="#whole-organ" id="toc-whole-organ" class="nav-link" data-scroll-target="#whole-organ">Whole-organ</a></li>
-  <li><a href="#decalcification-overview" id="toc-decalcification-overview" class="nav-link" data-scroll-target="#decalcification-overview">Decalcification overview</a></li>
-  <li><a href="#decalcification-cubic-hv" id="toc-decalcification-cubic-hv" class="nav-link" data-scroll-target="#decalcification-cubic-hv">Decalcification + Cubic-HV</a>
-  <ul class="collapse">
-  <li><a href="#process-outline" id="toc-process-outline" class="nav-link" data-scroll-target="#process-outline">Process outline:</a></li>
-  </ul></li>
-  </ul>
-</nav>
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">Cubic</h1>
-<p class="subtitle lead">Comprehensive guide</p>
+<h1 class="title d-none d-lg-block">Materials</h1>
+<p class="subtitle lead">Order materials and reagents</p>
 </div>
 
 
@@ -231,14 +220,14 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">July 26, 2023</p>
+      <p class="date">July 31, 2023</p>
     </div>
   </div>
   
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">July 28, 2023</p>
+      <p class="date-modified">July 31, 2023</p>
     </div>
   </div>
     
@@ -247,61 +236,66 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>Protocol for Imaging and Analysis of Mouse Tumor Models with CUBIC Tissue Clearin. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7757565/" target="_blank">Article</a>.</p>
-<p>Compleate protocol for Mouse Tumor Models.</p>
-<section id="whole-mouse-clearing" class="level3">
-<h3 data-anchor-id="whole-mouse-clearing">Whole-mouse Clearing</h3>
-<p>Mouse <a href="https://www.tcichemicals.com/assets/brochure-pdfs/Brochure_LL060_E.pdf" target="_blank">whole-Body Clearing</a> (without decalcification process)</p>
-<p><img src="images/mouse_wholebody_cleraing_img.png" class="img-fluid"></p>
-<p><strong>Application: Whole Adult Mouse</strong></p>
-<ul>
-<li><strong>Pre-Treatment: 200 mL 50% CUBIC-L at 37°C O/N</strong></li>
-<li><strong>Delipidation: 200 mL CUBIC-L at 37°C for 5 days</strong>
-<ul>
-<li>(CUBIC-L refreshed on days 1, 2, and 4)
-<ul>
-<li>Delipidation has reached its endpoint when:
-<ul>
-<li>Partial transparency is acheived</li>
-<li>CUBIC-L remains colorless after incubation with sample</li>
-</ul></li>
-</ul></li>
-</ul></li>
-<li><strong>Pre-Treatment: 200 mL 50% CUBIC-R+(M) at RT O/N</strong></li>
-<li><strong>RI Matching: 200 mL CUBIC-R+(M) at RT O/N</strong>
-<ul>
-<li>Reagent Totals (for a 12 cm x 8 cm x 6 cm container):
-<ul>
-<li>CUBIC-L : 700 mL</li>
-<li>CUBIC-R+(M) : 300 mL Delipidation has reached its endpoint when:</li>
-</ul></li>
-</ul></li>
-</ul>
-<p>†Use a container that allows you to submerge your whole specimen.<br>
-†For nuclear staining, we recommend using a solution of 30 μg/mL propidium iodide (PI) and 1.5M NaCl in PBS.</p>
-<p>FA: formaldehyde, O/N: overnight, PFA: paraformaldehyde, RT: room temperature.</p>
-</section>
-<section id="whole-organ" class="level3">
-<h3 data-anchor-id="whole-organ">Whole-organ</h3>
-<p><img src="images/Organ_clearing02.png" class="img-fluid"></p>
-</section>
-<section id="decalcification-overview" class="level3">
-<h3 data-anchor-id="decalcification-overview">Decalcification overview</h3>
-<p>Decalcification (Whole Mouse).</p>
-<p><img src="images/Decalcification_wholeMouse_img.png" class="img-fluid"></p>
-</section>
-<section id="decalcification-cubic-hv" class="level2">
-<h2 data-anchor-id="decalcification-cubic-hv">Decalcification + Cubic-HV</h2>
-<section id="process-outline" class="level3">
-<h3 data-anchor-id="process-outline">Process outline:</h3>
-<p><img src="images/Bone_clearing01.png" class="img-fluid"></p>
-<p><img src="images/Bone_clearing02.png" class="img-fluid"></p>
-<p>Process details:</p>
-<p>(see cubic_hv section)</p>
+<p>Order products <a href="https://www.cubicstars.com/en/order/">order</a>:</p>
+<table class="table">
+<colgroup>
+<col style="width: 40%">
+<col style="width: 14%">
+<col style="width: 14%">
+<col style="width: 14%">
+<col style="width: 14%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Product</th>
+<th>Item #</th>
+<th>Quantity</th>
+<th>Amount</th>
+<th>Price</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>CUBIC-L</td>
+<td>[CSCR001]</td>
+<td>(500ml)</td>
+<td>1</td>
+<td>580USD</td>
+</tr>
+<tr class="even">
+<td>CUBIC-B</td>
+<td>[CSCR003]</td>
+<td>(100ml)</td>
+<td>1</td>
+<td>160USD</td>
+</tr>
+<tr class="odd">
+<td>CUBIC-R+(N)</td>
+<td>[CSCR002]</td>
+<td>(500ml)</td>
+<td>1</td>
+<td>400USD</td>
+</tr>
+<tr class="even">
+<td>CUBIC-HV™2 3D tissue staining kit (starter)</td>
+<td>[CSSR003]</td>
+<td>(500ml)</td>
+<td>1</td>
+<td>1580USD</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>order <a href="https://www.cubicstars.com/en/order/" target="_blank">here</a>.</p>
+<p><img src="images/Materials_order-01.png" class="img-fluid"></p>
 
 
-</section>
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -439,6 +433,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   } else {
     toggleColorMode(false);
   }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const clipboard = new window.ClipboardJS('.code-copy-button', {
     target: function(trigger) {
       return trigger.previousElementSibling;
