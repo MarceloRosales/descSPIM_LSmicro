@@ -4,9 +4,9 @@ author: "Marcelo Rosales"
 date: "2023/07/26"  
 date-meta: "2023/07/20"  
 date-modified: last-modified
-subtitle: Comprehensive guide to using 
+subtitle: Comprehensive guide 
 page-layout: article
-anchor-sections: false
+anchor-sections: true
 search: false
 #  template: ../../ejs/links.ejs
 #  contents: guide.yml

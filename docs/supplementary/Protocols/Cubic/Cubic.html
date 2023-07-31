@@ -54,6 +54,7 @@ div.csl-indent {
 <script src="../../../site_libs/quarto-html/quarto.js"></script>
 <script src="../../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
 <link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
@@ -84,7 +85,7 @@ div.csl-indent {
 
 <link rel="stylesheet" href="../../../styles.css">
 <meta property="og:title" content="descSPIM_LSmicro - Cubic Intro">
-<meta property="og:description" content="Comprehensive guide to using">
+<meta property="og:description" content="Comprehensive guide">
 <meta property="og:site-name" content="descSPIM_LSmicro">
 </head>
 
@@ -230,7 +231,7 @@ div.csl-indent {
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title d-none d-lg-block">Cubic Intro</h1>
-<p class="subtitle lead">Comprehensive guide to using</p>
+<p class="subtitle lead">Comprehensive guide</p>
 </div>
 
 
@@ -254,7 +255,7 @@ div.csl-indent {
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">July 28, 2023</p>
+      <p class="date-modified">July 31, 2023</p>
     </div>
   </div>
     
@@ -270,7 +271,7 @@ div.csl-indent {
 <li>Cubic Bioinformatics <a href="https://github.com/lsb-riken/CUBIC-informatics" target="_blank">repository</a>.</li>
 </ul>
 <section id="protocols" class="level2">
-<h2 data-anchor-id="protocols">Protocols</h2>
+<h2 class="anchored" data-anchor-id="protocols">Protocols</h2>
 <ul>
 <li><strong>Basic protocol:</strong> Clearing of whole mouse bodies as well as animal organs can be achieved by using two reagents in sequence:</li>
 </ul>
@@ -291,7 +292,7 @@ div.csl-indent {
 <li><p>Using light-sheet fluorescent microscopy (LSFM) or confocal laser-scanning microscopy (CLSM) enables the whole-organ / body imaging at a cellular resolution.</p></li>
 </ul>
 <section id="complete-overview-of-procedures" class="level3">
-<h3 data-anchor-id="complete-overview-of-procedures">Complete Overview of procedures</h3>
+<h3 class="anchored" data-anchor-id="complete-overview-of-procedures">Complete Overview of procedures</h3>
 <p>Overview of the advanced CUBIC pipeline in whole-organ cell profiling.</p>
 <p><img src="images/Cubic_workflow-01.png" class="img-fluid"></p>
 <p>This pipeline comprises three major stages</p>
@@ -458,6 +459,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   } else {
     toggleColorMode(false);
   }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const clipboard = new window.ClipboardJS('.code-copy-button', {
     target: function(trigger) {
       return trigger.previousElementSibling;
